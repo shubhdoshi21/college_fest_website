@@ -22,7 +22,7 @@ const About = () => {
         </p>
       </div>
       <div className="flex flex-col items-center text-white">
-        <p className="text-2xl px-[15vw] text-justify pt-[10vh]">
+        <p className="text-2xl px-[15vw] text-justify py-[10vh] md:text-lg sm:text-base">
           During the first few years of the new millennium, it was observed that
           a lot of companies who came to college campuses to recruit fresh
           graduates started to lay special emphasis on communication skills,

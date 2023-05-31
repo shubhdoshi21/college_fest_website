@@ -6,7 +6,6 @@ import { IoLogoTwitter } from "react-icons/io";
 import { IoLogoYoutube } from "react-icons/io";
 import { Link } from "react-router-dom";
 
-
 const Footer = () => {
   const categories = [
     { title: "Home", route: "/" },
@@ -16,53 +15,42 @@ const Footer = () => {
     { title: "Contact", route: "/contact" },
   ];
   return (
-    <div className=" font-serif">
+    <div className="font-serif bg-black/50">
       <div className="py-5 flex justify-center flex-wrap filter invert">
         <div className="hover:animate-bounce p-2">
-          <a
-            href="http://www.facebook.com/Paramarsh.ideasinfinite/"
+          <Link
+            to="http://www.facebook.com/Paramarsh.ideasinfinite/"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <IoLogoFacebook size={25} />
-          </a>
+          </Link>
         </div>
         <div className="hover:animate-bounce p-2">
-          <a
-            href="http://instagram.com/msu_paramarsh?igshid=MzRlODBiNWFlZA=="
+          <Link
+            to="http://instagram.com/msu_paramarsh?igshid=MzRlODBiNWFlZA=="
             target="_blank"
-            rel="noopener noreferrer"
           >
             <IoLogoInstagram size={25} />
-          </a>
+          </Link>
         </div>
 
         <div className="hover:animate-bounce p-2">
-          <a
-            href="https://in.linkedin.com/company/paramarsh-ideas-infinite"
+          <Link
+            to="https://in.linkedin.com/company/paramarsh-ideas-infinite"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <IoLogoLinkedin size={25} />
-          </a>
+          </Link>
         </div>
         <div className="hover:animate-bounce p-2">
-          <a
-            href="https://twitter.com/msu_paramarsh"
-            target="_blank"
-            rel="noopener noreferrer" 
-          >
+          <Link to="https://twitter.com/msu_paramarsh" target="_blank">
             <IoLogoTwitter size={25} />
-          </a>
+          </Link>
         </div>
         <div className="hover:animate-bounce p-2">
-          <a
-            href="https://www.youtube.com/@msu_paramarsh"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="https://www.youtube.com/@msu_paramarsh" target="_blank">
             <IoLogoYoutube size={25} />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -77,9 +65,12 @@ const Footer = () => {
         ))}
       </div>
       <div className="justify-center py-2 flex flex-wrap text-center">
-        <span className=" text-slate-300 py-2 px-1 text-sm">&copy;Website Handled By</span>
+        <span className=" text-slate-300 py-2 px-1 text-sm">
+          &copy;Website Handled By
+        </span>
         <span className="text-white py-2 px-1">
-         <Link to="/web">WebTeam'23</Link></span>
+          <Link to="/web">WebTeam'23</Link>
+        </span>
       </div>
     </div>
   );

@@ -23,17 +23,17 @@ const Event = () => {
       <Sidebar handleClick={showHandler}/>
     )}
     <div className="flex flex-wrap items-center justify-center text-white">
-        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center">
+        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] pb-[10vh] px-3 w-[100vw] text-center">
           EVENTS
         </div>
-        <div className="w-[50vw] p-10"><img src={i1} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i2} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i3} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i4} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i5} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i6} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i7} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i8} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i1} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i2} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i3} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i4} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i5} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i6} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i7} alt="" /></div>
+        <div className="w-[50vw] p-[10vh]"><img src={i8} alt="" /></div>
         </div>
     </div>
     

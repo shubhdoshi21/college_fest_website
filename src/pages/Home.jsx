@@ -60,8 +60,9 @@ const Home = () => {
         <Link to="/about">ABOUT US</Link>
         </button>
       </div>
-      <div className="flex flex-wrap justify-center lg:space-x-5 lgm:space-x-0 p-10">
-        <iframe
+      <div className="flex flex-wrap justify-center p-10">
+        <div className="flex p-5 overflow-hidden">
+          <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/2cgf2MuilPQ"
@@ -69,7 +70,8 @@ const Home = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe>
+          ></iframe>
+          </div><div className="flex p-5 overflow-hidden">
         <iframe
           width="560"
           height="315"
@@ -78,7 +80,7 @@ const Home = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe>
+        ></iframe></div>
       </div>
 
       <div className="flex justify-center flex-wrap p-10">
