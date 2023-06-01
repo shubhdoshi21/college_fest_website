@@ -8,7 +8,7 @@ const Startup = () => {
     <div className="bg-black text-white">
      
       <div className="flex flex-wrap items-center justify-center">
-        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center">
+        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-4xl pt-[25vh] px-3 w-[100vw] text-center">
           STARTUPEDIA
           <p className="text-5xl md:text-4xl sm:text-3xl xs:text-1xl px-2 pt-[2vh]">
             A Development Dialogue
@@ -18,7 +18,7 @@ const Startup = () => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-xl px-[20vw] pt-[5vh] text-justify ">
+          <p className=" px-[20vw] pt-[5vh] text-justify ">
             Why not give that talent a platform, a stairway to success. An idea
             is the beginning of an achievement. Paramarsh’22 ignited the idea of
             Startupedia - a development dialogue, with the sole aim of giving
@@ -33,8 +33,8 @@ const Startup = () => {
         </div>
       </div>
         <div className="px-[20vw] py-[5vh]">
-          <p className="text-2xl">Rules:-</p>
-          <ol className="list-decimal text-xl">
+          <p className="text-xl">Rules:-</p>
+          <ol className="list-decimal">
             <li>Participants have to register via Google form/ Townscript. There is no fee for entry.</li>
             <li>Participation can be done as an individual or a team.</li>
             <li>Each individual or team may enter only one idea or concept.</li>
@@ -53,8 +53,9 @@ const Startup = () => {
           </ol>
         </div>
         <div className="px-[20vw] py-[5vh]">
-        <p className="text-2xl">FOR QUERIES, CONTACT:
-Visakh Nair : +91 9510350778</p>
+        <p className="text-xl">FOR QUERIES, </p>
+        <p className="">CONTACT :-</p>
+        <p className="">Visakh Nair : +91 9510350778</p>
         </div >
         <div className="flex items-center flex-col py-[5vh]">
         <button className="text-center text-white border border-x-white border-y-slate-400 p-2 hover:text-black hover:bg-white">

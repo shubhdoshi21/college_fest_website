@@ -6,7 +6,7 @@ import { IoLogoTwitter } from "react-icons/io";
 import { IoLogoYoutube } from "react-icons/io";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = (handleClick1) => {
   const categories = [
     { title: "Home", route: "/" },
     { title: "About Us", route: "/about" },
@@ -60,7 +60,9 @@ const Footer = () => {
             key={key}
             className="cursor-pointer rounded-full p-2 hover:text-black hover:bg-white text-white "
           >
-            <Link to={category.route}>{category.title}</Link>
+            <Link to={category.route} onClick={handleClick1}>
+              {category.title}
+            </Link>
           </div>
         ))}
       </div>
@@ -69,7 +71,9 @@ const Footer = () => {
           &copy;Website Handled By
         </span>
         <span className="text-white py-2 px-1">
-          <Link to="/web">WebTeam'23</Link>
+          <Link to="/web" onClick={handleClick1}>
+            WebTeam'23
+          </Link>
         </span>
       </div>
     </div>

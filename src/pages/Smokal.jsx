@@ -1,13 +1,13 @@
 import React from 'react'
+import smok from "../assets/shubh/data/index";
+import { useNavigate } from 'react-router-dom';
 
-import i1 from "../components/BROADWAY BEATS jpg.jpg";
-import i2 from "../components/COMICALITY JPG.jpg";
-import i3 from "../components/ENCHANTZ JPG.jpg";
-import i4 from "../components/HINDI POETRY JPG.jpg";
-import i5 from "../components/SMOKIN ACE'S JPG.jpg";
 
 const Smokal = () => {
-  
+  const navigate = useNavigate();
+  const navigateHandler = (dat) => {
+    navigate(`/smokal/${dat.title}`, { state: { smokalData: dat } });
+  };
   return (
     <div className="bg-black text-white">
       
@@ -15,11 +15,11 @@ const Smokal = () => {
         <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center">
           SMOKAL
         </div>
-        <div className="w-[50vw] p-10"><img src={i1} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i2} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i3} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i4} alt="" /></div>
-        <div className="w-[50vw] p-10"><img src={i5} alt="" /></div>
+        <div className="flex flex-wrap w-[80vw] items-center justify-center">
+
+        {smok.map((dat, key) => (
+          <img src={dat.img} alt={dat.title} onClick={() => navigateHandler(dat)} className="p-10 w-[40vw] sm:w-[80vw] flex flex-wrap"/>
+          ))}</div>
         </div>
     </div>
   )

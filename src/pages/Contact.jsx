@@ -23,18 +23,18 @@ const Contact = () => {
   };
   return (
 
-    <div className="w-full h-full bg-black font-serif">
+    <div className="w-full h-full bg-black flex flex-wrap">
      
-      <div className="flex flex-col items-center text-white">
+      <div className="flex flex-wrap text-white text-center justify-center">
         <p className=" text-6xl md:text-5xl sm:text-4xl xs:text-2xl pt-[25vh] px-2">
           CONTACT US
         </p>
-        <p className="text-base px-8 p-[3vh] text-center">
+        <p className="text-base px-[15vw] p-[3vh] text-center justify-center">
         Find the nearest venues to your address or send us a message for further details about any events you’re interested in.
         </p>
       </div>
       <div className='flex'>
-      <div className="w-[50vw] px-[12.5vw] space-y-3 py-10">
+      <div className="w-[50vw] px-[10vw] space-y-3 py-10 sm:w-[100vw]">
       <input
               type="text"
               placeholder="Name"
@@ -63,14 +63,15 @@ const Contact = () => {
           SUBMIT
         </button>
       </div>
-      <div className='text-white w-[50vw] text-center space-y-3 pt-[10vh]'>
-        <p>Varshil kotecha: (+91) 9428839058</p>
-        <p>Divyadeepsinh Gohil : (+91) 9081578050</p>
-        <p>EMAIL : paramarsh22.fte@gmail.com</p>
+      </div>
+      <div className='text-white w-[50vw] text-center justify-center space-y-3 p-10 flex sm:w-[100vw] flex-wrap'>
+        <p className='flex w-full'>Varshil kotecha : (+91) 9428839058</p>
+        <p className='flex w-full'>Divyadeepsinh Gohil : (+91) 9081578050</p>
+        <p className='flex w-full'>EMAIL : paramarsh22.fte@gmail.com</p>
       </div>
       </div>
 
-      </div>
+      
   )
 }
 

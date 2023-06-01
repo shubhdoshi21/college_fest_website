@@ -14,8 +14,8 @@ const Sanidhya = () => {
         <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center">
           SANIDHYA
         </div>
-        <div className="w-[30vw] h-[80vh] p-10">
-          <img src={i1} alt="" />
+        <div className="w-[30vw] h-[80vh] p-10 md:w-[50vw] sm:w-[100vw]">
+          <img src={i1} alt="" className=""/>
           <p className="text-xl text-center p-1">Saplings Distribution</p>
           <p className="text-justify p-1">
             Conservation is a crucial issue to confront the challenges mpther
@@ -28,7 +28,7 @@ const Sanidhya = () => {
             saplings.
           </p>
         </div>
-        <div className="w-[30vw] h-[80vh] p-10">
+        <div className="w-[30vw] h-[80vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i2} alt="" />
           <p className="text-xl text-center p-1">Little Steps</p>
           <p className="text-justify p-1">
@@ -38,7 +38,7 @@ const Sanidhya = () => {
             confidence with our little step towards development.
           </p>
         </div>
-        <div className="w-[30vw] h-[80vh] p-10">
+        <div className="w-[30vw] h-[80vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i3} alt="" />
           <p className="text-xl text-center p-1">Speaking Street</p>
           <p className="text-justify p-1">

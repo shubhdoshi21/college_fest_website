@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 
 import i1 from "../components/1.jpg";
 
-const Home = () => {
-  
+const Home = (handleClick1) => {
   const categories = [
     { title: "Home", route: "/" },
     { title: "About Us", route: "/about" },
@@ -53,7 +52,7 @@ const Home = () => {
         </div>
         <div className="flex items-center flex-col py-[5vh]">
           <button className="text-center text-white border border-x-white border-y-slate-400 p-2 hover:text-black hover:bg-white">
-            <Link to="/about">ABOUT US</Link>
+            <Link to="/about" onClick={handleClick1}>ABOUT US</Link>
           </button>
         </div>
         <div className="flex flex-wrap justify-center">
@@ -85,7 +84,7 @@ const Home = () => {
               key={key}
               className="cursor-pointer rounded-full p-2 hover:text-black hover:bg-white text-white "
             >
-              <Link to={category.route}>{category.title}</Link>
+              <Link to={category.route}  onClick={handleClick1}>{category.title}</Link>
             </div>
           ))}
         </div>

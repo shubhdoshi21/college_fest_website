@@ -199,9 +199,6 @@ const Faneticz = () => {
         <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
           PREVIOUS
         </button>
-        <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
-          NEXT
-        </button>
       </div>
     </div>
   );
