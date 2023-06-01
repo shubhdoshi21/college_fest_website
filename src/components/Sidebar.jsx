@@ -29,7 +29,7 @@ const Sidebar = ({handleClick}) => {
 
     {categories.map((category,key)=>(
         <p key={key} className="cursor-pointer hover:text-xl hover:text-slate-500 ">
-            <Link to={category.route}>{category.title}</Link>
+            <Link to={category.route} onClick={handleClick}>{category.title}</Link>
         </p>
     ))}
     </div>

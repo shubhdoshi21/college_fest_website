@@ -15,7 +15,7 @@ const Footer = () => {
     { title: "Contact", route: "/contact" },
   ];
   return (
-    <div className="font-serif bg-black/50">
+    <div className="font-serif bg-black/70">
       <div className="py-5 flex justify-center flex-wrap filter invert">
         <div className="hover:animate-bounce p-2">
           <Link

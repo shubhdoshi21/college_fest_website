@@ -14,10 +14,26 @@ import Smokal from "./pages/Smokal";
 import Startup from "./pages/Startup";
 import Tranc from "./pages/Tranc";
 import Web from "./pages/Web";
+import { useState } from "react";
+import Sidebar from "./components/Sidebar";
+import { CgMenuLeftAlt } from "react-icons/cg";
+import Eventsmain from "./pages/Eventsmain";
+import Faneticz from "./pages/Faneticz";
 
 function App() {
+  const showHandler = () => {
+    setshowSidebar(!showSidebar);
+  };
+  const [showSidebar, setshowSidebar] = useState(false);
   return (
     <div className="font-serif">
+       {!showSidebar ? (
+        <div className="fixed top-10 left-10 cursor-pointer">
+          <CgMenuLeftAlt color="white" size="35px" onClick={showHandler} />
+        </div>
+      ) : (
+        <Sidebar handleClick={showHandler} />
+      )}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
@@ -33,6 +49,9 @@ function App() {
         <Route path="/startup" element={<Startup />} />
         <Route path="/tranc" element={<Tranc />} />
         <Route path="/web" element={<Web />} />
+        <Route path="/event/:id" element={<Eventsmain />} />
+        <Route path="/event/Faneticz" element={<Faneticz />} />
+
       </Routes>
 
       <Footer />
