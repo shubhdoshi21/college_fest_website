@@ -17,21 +17,21 @@ import i13 from "../components/benny.jpg";
 import i14 from "../components/suraj.jpg";
 
 const Pronite = () => {
-
   return (
     <div className="bg-black text-white">
-     
       <div className="flex flex-wrap items-center justify-center">
-        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center">
+        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
           PRONITE
-          <p className="text-base px-8 pt-[10vh] text-center">
+          <p className="text-base px-8 pt-[10vh] text-center font-semibold">
             The jubilation of experiencing your fandom artists live is
             unbeatable. Paramarsh has never failed to make the audience amazed.
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Madhur Sharma</p>
+          <img src={i} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Madhur Sharma
+          </p>
           <p className="py-5">
             Madhur Sharma is an Indian Playback singer and live performer from
             Bhopal based in Mumbai. He is well known for number of popular
@@ -55,11 +55,13 @@ const Pronite = () => {
           REGISTER HERE
         </button>
       </div>
-      <p className="text-5xl md:text-4xl p-10 text-center">PAST PRONITES :</p>
+      <p className="text-5xl md:text-4xl p-10 text-center font-semibold">
+        PAST PRONITES :
+      </p>
       <div className="flex flex-wrap items-center justify-center">
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i1} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Rahul Dua</p>
+          <img src={i1} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">Rahul Dua</p>
           <p className="py-5">
             An established India stand-up comedian & brightest comic of the new
             generation "Rahul Dua" made 2020 mesmerized and full of laughters
@@ -70,8 +72,8 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i2} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Ritviz</p>
+          <img src={i2} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">Ritviz</p>
           <p className="py-5">
             Let's take a trip down the memory lane of 2019 when Ritviz
             illuminated Paramarsh's stage with his presence and made the
@@ -83,8 +85,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i3} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Mohammed Irfan</p>
+          <img src={i3} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Mohammed Irfan
+          </p>
           <p className="py-5">
             {" "}
             2018 marks remarkable stage lit performance of Mohammed Irfan. His
@@ -104,8 +108,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i4} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">The Local Train Band</p>
+          <img src={i4} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            The Local Train Band
+          </p>
           <p className="py-5">
             The Local Train, the name itself suggests it to be a concoction of
             varied Indian culture. Its not just a band, but an emotion . It was
@@ -117,8 +123,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i5} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Nikhita Gandhi</p>
+          <img src={i5} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Nikhita Gandhi
+          </p>
           <p className="py-5">
             Nikhita Gandhi, an epitome of most diversified vocalist, is an
             Indian playback singer who has worked in Indian films in four
@@ -128,8 +136,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i6} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Lagoori Band</p>
+          <img src={i6} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Lagoori Band
+          </p>
           <p className="py-5">
             Lagori makes music that reflects the face of the modern Indian
             youth. This band combines Indian classical melodies and inflections
@@ -139,8 +149,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i7} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Shefali Alvares</p>
+          <img src={i7} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Shefali Alvares
+          </p>
           <p className="py-5">
             Shefali Alvares is a liberal melody that grabs a foothold at Jazz
             and has enchanted Bollywood with her versatile diction. Her famous
@@ -150,8 +162,8 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i8} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Tochi Raina</p>
+          <img src={i8} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">Tochi Raina</p>
           <p className="py-5">
             A notable playback singer in Hindi films, Tochi Raina's famous works
             include ‘Kabira’ from “Yeh Jawaani Hai Deewani”, ‘Iktara’ from "Wake
@@ -161,8 +173,8 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i9} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Raghu Dixit</p>
+          <img src={i9} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">Raghu Dixit</p>
           <p className="py-5">
             Raghu Dixit, an Indian singer, composer, producer is the front-man
             for the Raghu Dixit Project, a multi-lingual folk music band. This
@@ -174,8 +186,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i10} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Paradigm Shift Band</p>
+          <img src={i10} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Paradigm Shift Band
+          </p>
           <p className="py-5">
              Paradigm Shift is a Mumbai-based progressive rock band. Their music
             is an amalgamation of various genres of music, combining Indian
@@ -184,8 +198,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i11} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Aditi Singh Sharma</p>
+          <img src={i11} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Aditi Singh Sharma
+          </p>
           <p className="py-5">
             Aditi Singh Sharma is an Indian playback singer who made her singing
             debut in Bollywood with Anurag Kashyap’s Dev D. She’s famous for her
@@ -194,8 +210,10 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i12} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Parikrama Band</p>
+          <img src={i12} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">
+            Parikrama Band
+          </p>
           <p className="py-5">
             Parikrama is a Rock and Roll band from Delhi, India. They have
             several live performances and original numbers to their name. This
@@ -205,8 +223,8 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i13} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Benny Dayal</p>
+          <img src={i13} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">Benny Dayal</p>
           <p className="py-5">
             Benny Dayal, a singer who hails from the state of Kerala, is a
             member of the band S5. Given a break by A.R. Rahman, he has churned
@@ -216,8 +234,8 @@ const Pronite = () => {
           </p>
         </div>
         <div className="w-[80vw] p-10 text-justify">
-          <img src={i14} alt="" className="w-full"/>
-          <p className="text-3xl  text-center p-5">Suraj Jagan</p>
+          <img src={i14} alt="" className="w-full" />
+          <p className="text-3xl  text-center p-5 font-semibold">Suraj Jagan</p>
           <p className="py-5">
             Suraj Jagan is a famous Indian playback singer of Malyali origin. He
             is prominently noted for the song ‘Give Me Some Sunshine’ from the

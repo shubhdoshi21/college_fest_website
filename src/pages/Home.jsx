@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import { Link } from "react-router-dom";
 
 import i1 from "../components/1.jpg";
@@ -28,13 +27,13 @@ const Home = (handleClick1) => {
         alt="bg"
         className="w-screen h-screen bg-cover bg-no-repeat fixed -z-10"
       />
-     
+
       <div className="mx-[10vw] bg-black/30">
         <div className="flex flex-col items-center text-white ">
-          <p className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 ">
+          <p className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3  font-bold">
             PARAMARSH
           </p>
-          <p className="text-6xl md:text-5xl sm:text-4xl xs:text-2xl px-2">
+          <p className="text-6xl md:text-5xl sm:text-4xl xs:text-2xl px-2 font-semibold">
             IDEAS INFINITE
           </p>
         </div>
@@ -52,7 +51,9 @@ const Home = (handleClick1) => {
         </div>
         <div className="flex items-center flex-col py-[5vh]">
           <button className="text-center text-white border border-x-white border-y-slate-400 p-2 hover:text-black hover:bg-white">
-            <Link to="/about" onClick={handleClick1}>ABOUT US</Link>
+            <Link to="/about" onClick={handleClick1}>
+              ABOUT US
+            </Link>
           </button>
         </div>
         <div className="flex flex-wrap justify-center">
@@ -84,7 +85,9 @@ const Home = (handleClick1) => {
               key={key}
               className="cursor-pointer rounded-full p-2 hover:text-black hover:bg-white text-white "
             >
-              <Link to={category.route}  onClick={handleClick1}>{category.title}</Link>
+              <Link to={category.route} onClick={handleClick1}>
+                {category.title}
+              </Link>
             </div>
           ))}
         </div>

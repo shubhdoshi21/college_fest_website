@@ -9,8 +9,8 @@ const Workshop = () => {
         WORK-SHOPS OF PARAMARSH'23
       </div>
       <div className="w-[30vw] p-10 md:w-[50vw] sm:w-[100vw]">
-        <img src={i1} alt="" className="w-full"/>
-        <p className="text-xl text-center p-1">
+        <img src={i1} alt="" className="w-full" />
+        <p className="text-xl text-center p-1 font-semibold">
           Corporate Grooming & Etiquettes
         </p>
         <p className="text-justify p-1">
@@ -27,8 +27,8 @@ const Workshop = () => {
         </p>
       </div>
       <div className="w-[30vw] p-10 md:w-[50vw] sm:w-[100vw]">
-        <img src={i2} alt="" className="w-full"/>
-        <p className="text-xl text-center p-1">
+        <img src={i2} alt="" className="w-full" />
+        <p className="text-xl text-center p-1 font-semibold">
           Empowering 5G Technology in India
         </p>
         <p className="text-justify p-1">
@@ -45,8 +45,8 @@ const Workshop = () => {
         </p>
       </div>
       <div className="w-[30vw] p-10 md:w-[50vw] sm:w-[100vw]">
-        <img src={i3} alt="" className="w-full"/>
-        <p className="text-xl text-center p-1">
+        <img src={i3} alt="" className="w-full" />
+        <p className="text-xl text-center p-1 font-semibold">
           The Stock Market and Passive Income
         </p>
         <p className="text-justify p-1">
@@ -60,10 +60,10 @@ const Workshop = () => {
         </p>
       </div>
       <div className="flex items-center flex-wrap justify-center py-[5vh] w-[100vw]">
-          <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
-            REGISTER HERE
-          </button>
-        </div>
+        <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
+          REGISTER HERE
+        </button>
+      </div>
     </div>
   );
 };

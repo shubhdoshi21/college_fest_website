@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-const Smokalmain = () => {
+const Estuffmain = () => {
   const location = useLocation();
+
   const [data, setData] = useState([]);
-  const allData = location.state.smokalData;
+  const allData = location.state.estuffData;
   const key = location.state.key;
   const [pageKey, setPageKey] = useState(key);
 
@@ -33,10 +34,10 @@ const Smokalmain = () => {
   return (
     <div className="w-full h-full text-white text-center bg-black">
       {/* <img
-        src={i1}
-        alt="bg"
-        className="w-screen h-screen bg-cover bg-no-repeat fixed -z-10"
-      /> */}
+      src={i1}
+      alt="bg"
+      className="w-screen h-screen bg-cover bg-no-repeat fixed -z-10"
+    /> */}
       <div className="flex items-center justify-center">
         <img
           src={data.img}
@@ -47,6 +48,9 @@ const Smokalmain = () => {
 
       <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl px-[10vw] py-[5vh] font-bold">
         {data.title}
+      </div>
+      <div className="text-2xl md:text-xl sm:text-lg px-[10vw] md:px-[5vw] font-semibold">
+        {data.quote}
       </div>
       <div className=" text-lg sm:text-sm text-justify px-[10vw] md:px-[5vw]">
         {data.desc}
@@ -61,30 +65,44 @@ const Smokalmain = () => {
           <li>{data.r1}</li>
           <li>{data.r2}</li>
           <li>{data.r3}</li>
+          <li>{data.r4}</li>
         </ol>
       </div>
       <div className="px-[10vw] md:px-[5vw] text-left pt-[5vh]">
         <p>For Queries,</p>
         <p>Contact :-</p>
-        <p>Divyadeepsinh Gohil : +91 9081578050</p>
+        <p>Varshil Kotecha : +91 9428839058</p>
       </div>
-      <div className="flex items-center flex-wrap justify-center py-[2vh]">
-        <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
-          REGISTER HERE
-        </button>
-      </div>
-      <div className="flex items-center flex-wrap p-[2vh] justify-center space-x-[10vw]">
-        {data?.title !== "Broadway-Beats" && (
+
+      {data.title === "Battle-dore" && (
+        <div className="flex items-center sm:flex-col p-[2vh] justify-center space-x-[5vw] sm:space-x-0 sm:space-y-[5vh]">
+          <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
+            REGISTER HERE FOR SINGLES
+          </button>
+          <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
+            REGISTER HERE FOR DOUBLES
+          </button>
+        </div>
+      )}
+      {data.title !== "Battle-dore" && (
+        <div className="flex items-center flex-wrap p-[2vh] justify-center space-x-[5vw]">
+          <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
+            REGISTER HERE
+          </button>
+        </div>
+      )}
+      <div className="flex items-center flex-wrap p-[2vh] justify-center space-x-[5vw]">
+        {data?.title !== "22nd-yard" && (
           <button
-            className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80"
+            className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80 "
             onClick={handlePrev}
           >
             PREVIOUS
           </button>
         )}
-        {data?.title !== "Smoking Ace's" && (
+        {data?.title !== "Wall-E-Ball" && (
           <button
-            className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80"
+            className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80 px-8"
             onClick={handleNext}
           >
             NEXT
@@ -95,4 +113,4 @@ const Smokalmain = () => {
   );
 };
 
-export default Smokalmain;
+export default Estuffmain;

@@ -21,7 +21,9 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i1} alt="" />
-          <p className="text-xl text-center p-1">KTM Stunt Show</p>
+          <p className="text-xl text-center p-1 font-semibold">
+            KTM Stunt Show
+          </p>
           <p className="text-justify p-1 xs:text-sm">
             KTM is known for its off-road motorcycles and is also one of the
             most popular two wheelers among youth. KTM brought some of the most
@@ -31,7 +33,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i2} alt="" />
-          <p className="text-xl  text-center p-1">Archery</p>
+          <p className="text-xl  text-center p-1 font-semibold">Archery</p>
           <p className="text-justify p-1 xs:text-sm">
             Archery, a game of concentration and the perfect balance of your
             mind and body, is what Paramarsh presents to you in extravaganza.
@@ -41,7 +43,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i3} alt="" />
-          <p className="text-xl  text-center p-1">Ninja Star</p>
+          <p className="text-xl  text-center p-1 font-semibold">Ninja Star</p>
           <p className="text-justify p-1 xs:text-sm">
             Do you aspire to perform all the ninja tasks with your concentration
             and power? Was Ninja Hattori your spirit character in your
@@ -53,7 +55,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i4} alt="" />
-          <p className="text-xl text-center p-1">Axe Throwing</p>
+          <p className="text-xl text-center p-1 font-semibold">Axe Throwing</p>
           <p className="text-justify p-1 xs:text-sm">
             A deadly tool with an edge so sharp that it can cut even a tree in
             two, boon if used carefully, curse if you miss by a millimeter. If
@@ -63,7 +65,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i5} alt="" />
-          <p className="text-xl text-center p-1">Blow Dart Gun</p>
+          <p className="text-xl text-center p-1 font-semibold">Blow Dart Gun</p>
           <p className="text-justify p-1 xs:text-sm">
             Blow dart gun, the best weapon if you have the precision and the
             worst if you fumble. Blow dart gun is a game where you take your
@@ -72,7 +74,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i6} alt="" />
-          <p className="text-xl text-center p-1">Go-Karting</p>
+          <p className="text-xl text-center p-1 font-semibold">Go-Karting</p>
           <p className="text-justify p-1 xs:text-sm">
             Go-karting an adventurous Motorsport . One that entices the novice
             to ride. Held in the open circuits , the enthusiasts race upon the
@@ -82,7 +84,9 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i7} alt="" />
-          <p className="text-xl text-center p-1">Speed Painting</p>
+          <p className="text-xl text-center p-1 font-semibold">
+            Speed Painting
+          </p>
           <p className="text-justify p-1 xs:text-sm">
             Speed painting is exactly what you'd imagine – art against the
             clock. Adroitness at its best, is what you see. Paramarsh'16
@@ -91,7 +95,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i8} alt="" />
-          <p className="text-xl text-center p-1">Rapelling</p>
+          <p className="text-xl text-center p-1 font-semibold">Rapelling</p>
           <p className="text-justify p-1 xs:text-sm">
             The adventures you have imagined to have performed were brought into
             live experience at Paramarsh'16 in the form of Rapelling and Burma
@@ -100,7 +104,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i9} alt="" />
-          <p className="text-xl text-center p-1">Caricatures</p>
+          <p className="text-xl text-center p-1 font-semibold">Caricatures</p>
           <p className="text-justify p-1 xs:text-sm">
             Only hackers are different from programmers and computer users" It
             has been rightly said by Walt Disney, 'All cartoon characters and
@@ -111,7 +115,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i10} alt="" />
-          <p className="text-xl text-center p-1">Beatboxing</p>
+          <p className="text-xl text-center p-1 font-semibold">Beatboxing</p>
           <p className="text-justify p-1 xs:text-sm">
             A perfect combination of synchronization, energy, passion and
             expression in addition to the exceptional talent showcased by
@@ -122,7 +126,7 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i11} alt="" />
-          <p className="text-xl text-center p-1">Power Bocking</p>
+          <p className="text-xl text-center p-1 font-semibold">Power Bocking</p>
           <p className="text-justify p-1 xs:text-sm">
             Power Bocking- Act for the Steeled The extreme sport of jumping and
             running with spring stilts gets the audience stunned. The power
@@ -132,7 +136,9 @@ const Extravag = () => {
         </div>
         <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
           <img src={i12} alt="" />
-          <p className="text-xl text-center p-1">Freestyle Football</p>
+          <p className="text-xl text-center p-1 font-semibold">
+            Freestyle Football
+          </p>
           <p className="text-justify p-1 xs:text-sm">
             A highly anticipated combination of arcade action which exposes the
             heart of the world's beautiful game, on-the-ball flare, the

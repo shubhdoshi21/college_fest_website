@@ -19,29 +19,24 @@ import Sidebar from "./components/Sidebar";
 import { CgMenuLeftAlt } from "react-icons/cg";
 import Eventsmain from "./pages/Eventsmain";
 import Smokalmain from "./pages/Smokalmain";
-import Faneticz from "./pages/Faneticz";
 import Guestlec from "./pages/Guestlec";
 import Workshop from "./pages/Workshop";
-import Estuffmain from "./Estuffmain";
+import Estuffmain from "./pages/Estuffmain";
 
 function App() {
   const showHandler = () => {
     setshowSidebar(!showSidebar);
   };
   const [showSidebar, setshowSidebar] = useState(false);
-  const handleClick1 = (e) => {
-    window.scrollTo(0, 0);
-
-  };
 
   return (
     <div className="font-serif">
        {!showSidebar ? (
-        <div className="fixed top-10 left-10 cursor-pointer">
+        <div className="fixed top-10 left-10 cursor-pointer z-50">
           <CgMenuLeftAlt color="white" size="35px" onClick={showHandler} />
         </div>
       ) : (
-        <Sidebar handleClick={showHandler} handleClick1={handleClick1}/>
+        <Sidebar handleClick={showHandler}/>
       )}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -63,7 +58,7 @@ function App() {
         <Route path="/event/:id" element={<Eventsmain />} />
         <Route path="/smokal/:id" element={<Smokalmain />} />
         <Route path="/estuff/:id" element={<Estuffmain />} />
-        <Route path="/event/Faneticz" element={<Faneticz />} />
+
 
       </Routes>
 
