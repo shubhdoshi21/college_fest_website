@@ -22,6 +22,7 @@ import Smokalmain from "./pages/Smokalmain";
 import Guestlec from "./pages/Guestlec";
 import Workshop from "./pages/Workshop";
 import Estuffmain from "./pages/Estuffmain";
+import i1 from "../src/components/1.jpg";
 
 function App() {
   const showHandler = () => {
@@ -30,7 +31,12 @@ function App() {
   const [showSidebar, setshowSidebar] = useState(false);
 
   return (
-    <div className="font-serif">
+    <div className="ab bg-black/40">
+      <img
+        src={i1}
+        alt="bg"
+        className="w-screen h-screen bg-cover bg-no-repeat fixed -z-10"
+      />
        {!showSidebar ? (
         <div className="fixed top-10 left-10 cursor-pointer z-50">
           <CgMenuLeftAlt color="white" size="35px" onClick={showHandler} />

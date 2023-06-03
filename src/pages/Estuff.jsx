@@ -8,7 +8,7 @@ const Estuff = () => {
     navigate(`/estuff/${dat.title}`, { state: { estuffData: stuff, key } });
   };
   return (
-    <div className="w-full h-full bg-black">
+    <div className="w-full h-full">
       {/* <img
         src={i1}
         alt="bg"

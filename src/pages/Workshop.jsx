@@ -4,11 +4,11 @@ import i2 from "../components/5g.jpg";
 import i3 from "../components/stock market.jpeg";
 const Workshop = () => {
   return (
-    <div className="w-full h-full bg-black items-center justify-center text-white flex flex-wrap">
-      <div className="text-5xl md:text-4xl sm:text-3xl flex justify-center text-center font-bold text-white py-[5vh] px-[5vw] w-full">
+    <div className="w-full h-full items-center justify-center text-white flex flex-wrap ">
+      <div className="text-5xl md:text-4xl sm:text-3xl flex justify-center text-center font-bold text-white py-[10vh] px-[5vw] w-full">
         WORK-SHOPS OF PARAMARSH'23
       </div>
-      <div className="w-[30vw] p-10 md:w-[50vw] sm:w-[100vw]">
+      <div className="w-[30vw] md:p-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto  px-[2vw]">
         <img src={i1} alt="" className="w-full" />
         <p className="text-xl text-center p-1 font-semibold">
           Corporate Grooming & Etiquettes
@@ -26,7 +26,7 @@ const Workshop = () => {
           yourself in grooming & etiquette.
         </p>
       </div>
-      <div className="w-[30vw] p-10 md:w-[50vw] sm:w-[100vw]">
+      <div className="w-[30vw] md:p-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto  px-[2vw]">
         <img src={i2} alt="" className="w-full" />
         <p className="text-xl text-center p-1 font-semibold">
           Empowering 5G Technology in India
@@ -44,7 +44,7 @@ const Workshop = () => {
           brain tabs open.
         </p>
       </div>
-      <div className="w-[30vw] p-10 md:w-[50vw] sm:w-[100vw]">
+      <div className="w-[30vw] md:p-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto  px-[2vw]">
         <img src={i3} alt="" className="w-full" />
         <p className="text-xl text-center p-1 font-semibold">
           The Stock Market and Passive Income

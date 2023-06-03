@@ -2,19 +2,19 @@ import React from "react";
 
 const Startup = () => {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       <div className="flex flex-wrap items-center justify-center">
         <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-4xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
           STARTUPEDIA
-          <p className="text-5xl md:text-4xl sm:text-3xl xs:text-1xl px-2 pt-[2vh] font-semibold">
+          <p className="text-4xl md:text-3xl sm:text-3xl xs:text-xl px-2 pt-[2vh] font-semibold">
             A Development Dialogue
           </p>
-          <p className="text-xl px-8 pt-[5vh] text-center font-semibold">
+          <p className="text-xl px-[10vw] md:px-[5vw] pt-[5vh] text-center font-semibold">
             “It’s not magic. It’s talent and sweat” (Silicon Valley).
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <p className=" px-[20vw] pt-[5vh] text-justify ">
+          <p className=" px-[10vw] md:px-[5vw] pt-[5vh] text-justify ">
             Why not give that talent a platform, a stairway to success. An idea
             is the beginning of an achievement. Paramarsh’22 ignited the idea of
             Startupedia - a development dialogue, with the sole aim of giving
@@ -28,7 +28,7 @@ const Startup = () => {
           </p>
         </div>
       </div>
-      <div className="px-[20vw] py-[5vh]">
+      <div className="px-[15vw] md:px-[10vw] py-[5vh]">
         <p className="text-xl">Rules:-</p>
         <ol className="list-decimal">
           <li>
@@ -59,7 +59,7 @@ const Startup = () => {
           </li>
         </ol>
       </div>
-      <div className="px-[20vw] py-[5vh]">
+      <div className="px-[10vw] md:px-[5vw] py-[5vh]">
         <p className="text-xl">FOR QUERIES, </p>
         <p className="">CONTACT :-</p>
         <p className="">Visakh Nair : +91 9510350778</p>

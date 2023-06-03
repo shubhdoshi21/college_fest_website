@@ -18,18 +18,18 @@ import i14 from "../components/suraj.jpg";
 
 const Pronite = () => {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       <div className="flex flex-wrap items-center justify-center">
         <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
           PRONITE
-          <p className="text-base px-8 pt-[10vh] text-center font-semibold">
+          <p className="text-base px-8 pt-[10vh] pb-[5vh] text-center font-semibold">
             The jubilation of experiencing your fandom artists live is
             unbeatable. Paramarsh has never failed to make the audience amazed.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl text-center p-5 font-semibold">
             Madhur Sharma
           </p>
           <p className="py-5">
@@ -55,13 +55,13 @@ const Pronite = () => {
           REGISTER HERE
         </button>
       </div>
-      <p className="text-5xl md:text-4xl p-10 text-center font-semibold">
+      <p className="text-4xl sm:text-2xl p-10 text-center font-semibold">
         PAST PRONITES :
       </p>
       <div className="flex flex-wrap items-center justify-center">
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i1} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">Rahul Dua</p>
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">Rahul Dua</p>
           <p className="py-5">
             An established India stand-up comedian & brightest comic of the new
             generation "Rahul Dua" made 2020 mesmerized and full of laughters
@@ -71,9 +71,9 @@ const Pronite = () => {
             His genre of comedy is observational comedy.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i2} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">Ritviz</p>
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">Ritviz</p>
           <p className="py-5">
             Let's take a trip down the memory lane of 2019 when Ritviz
             illuminated Paramarsh's stage with his presence and made the
@@ -84,9 +84,9 @@ const Pronite = () => {
             Udd Gaye and Sage is what keeps you moving on the dance floor.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i3} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Mohammed Irfan
           </p>
           <p className="py-5">
@@ -107,9 +107,9 @@ const Pronite = () => {
             is rocking in the film industry.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i4} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             The Local Train Band
           </p>
           <p className="py-5">
@@ -122,9 +122,9 @@ const Pronite = () => {
             blessed the stage of Paramarsh'17.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i5} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Nikhita Gandhi
           </p>
           <p className="py-5">
@@ -135,9 +135,9 @@ const Pronite = () => {
             Pattha’(Jagga Jasoos), a duet with Arijit Singh is also a hit song.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i6} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Lagoori Band
           </p>
           <p className="py-5">
@@ -148,9 +148,9 @@ const Pronite = () => {
             beholds memories of experiencing this great band performance.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i7} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Shefali Alvares
           </p>
           <p className="py-5">
@@ -161,9 +161,9 @@ const Pronite = () => {
             enchanting performance.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i8} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">Tochi Raina</p>
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">Tochi Raina</p>
           <p className="py-5">
             A notable playback singer in Hindi films, Tochi Raina's famous works
             include ‘Kabira’ from “Yeh Jawaani Hai Deewani”, ‘Iktara’ from "Wake
@@ -172,9 +172,9 @@ const Pronite = () => {
             experienced by Paramarsh’15 in tune with Tochi Raina.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i9} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">Raghu Dixit</p>
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">Raghu Dixit</p>
           <p className="py-5">
             Raghu Dixit, an Indian singer, composer, producer is the front-man
             for the Raghu Dixit Project, a multi-lingual folk music band. This
@@ -185,9 +185,9 @@ const Pronite = () => {
             culture band.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i10} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Paradigm Shift Band
           </p>
           <p className="py-5">
@@ -197,9 +197,9 @@ const Pronite = () => {
             famous compositions include ‘Khwabon Mein’, ‘Deedar’ and many more.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i11} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Aditi Singh Sharma
           </p>
           <p className="py-5">
@@ -209,9 +209,9 @@ const Pronite = () => {
             Vinod’. She has also worked for MTV’s Coke Studio.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i12} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">
             Parikrama Band
           </p>
           <p className="py-5">
@@ -222,9 +222,9 @@ const Pronite = () => {
             their biggest hit ever!
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i13} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">Benny Dayal</p>
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">Benny Dayal</p>
           <p className="py-5">
             Benny Dayal, a singer who hails from the state of Kerala, is a
             member of the band S5. Given a break by A.R. Rahman, he has churned
@@ -233,9 +233,9 @@ const Pronite = () => {
             in Paramarsh’12.
           </p>
         </div>
-        <div className="w-[80vw] p-10 text-justify">
+        <div className="w-[80vw] text-justify">
           <img src={i14} alt="" className="w-full" />
-          <p className="text-3xl  text-center p-5 font-semibold">Suraj Jagan</p>
+          <p className="text-2xl sm:text-xl  text-center p-5 font-semibold">Suraj Jagan</p>
           <p className="py-5">
             Suraj Jagan is a famous Indian playback singer of Malyali origin. He
             is prominently noted for the song ‘Give Me Some Sunshine’ from the

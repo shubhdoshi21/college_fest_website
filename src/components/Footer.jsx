@@ -7,6 +7,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  
   const categories = [
     { title: "Home", route: "/" },
     { title: "About Us", route: "/about" },
@@ -15,7 +16,7 @@ const Footer = () => {
     { title: "Contact", route: "/contact" },
   ];
   return (
-    <div className="font-serif bg-black/70">
+    <div className="bg-black/70">
       <div className="py-5 flex justify-center flex-wrap filter invert">
         <div className="hover:-translate-y-[2vh] transition duration-300 hover:scale-125 p-2">
           <Link

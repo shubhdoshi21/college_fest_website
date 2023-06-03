@@ -31,7 +31,7 @@ const Smokalmain = () => {
     }
   };
   return (
-    <div className="w-full h-full text-white text-center bg-black">
+    <div className="w-full h-full text-white text-center">
       {/* <img
         src={i1}
         alt="bg"

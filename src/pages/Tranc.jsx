@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Tranc = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center bg-black text-white">
+    <div className="flex flex-wrap items-center justify-center text-white">
       <div className="text-7xl md:text-6xl sm:text-4xl xs:text-3xl pt-[25vh] px-3 w-[100vw] text-center pb-[10vh] overflow-hidden font-bold">
         TRANSCENDENCE
       </div>

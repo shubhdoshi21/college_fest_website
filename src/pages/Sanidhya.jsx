@@ -6,12 +6,12 @@ import i3 from "../components/speaking.jpeg";
 
 const Sanidhya = () => {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       <div className="flex flex-wrap items-center justify-center text-white">
         <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
           SANIDHYA
         </div>
-        <div className="w-[30vw] h-[80vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[33vw] h-[80vh] p-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto">
           <img src={i1} alt="" className="" />
           <p className="text-xl text-center p-1 font-semibold">
             Saplings Distribution
@@ -27,7 +27,7 @@ const Sanidhya = () => {
             saplings.
           </p>
         </div>
-        <div className="w-[30vw] h-[80vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[33vw] h-[80vh] p-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto">
           <img src={i2} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Little Steps</p>
           <p className="text-justify p-1">
@@ -37,7 +37,7 @@ const Sanidhya = () => {
             confidence with our little step towards development.
           </p>
         </div>
-        <div className="w-[30vw] h-[80vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[33vw] h-[80vh] p-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto">
           <img src={i3} alt="" />
           <p className="text-xl text-center p-1 font-semibold">
             Speaking Street

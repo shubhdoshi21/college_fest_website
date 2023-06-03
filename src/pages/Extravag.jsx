@@ -14,12 +14,12 @@ import i12 from "../components/free.jpg";
 
 const Extravag = () => {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       <div className="flex flex-wrap items-center justify-center text-white">
-        <div className=" text-7xl md:text-6xl sm:text-4xl xs:text-3xl pt-[25vh] px-3 w-[100vw] text-center">
+        <div className=" text-7xl md:text-6xl sm:text-4xl xs:text-3xl pt-[25vh] px-3 w-[100vw] text-center pb-[10vh]">
           EXTRAVAGANZA
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i1} alt="" />
           <p className="text-xl text-center p-1 font-semibold">
             KTM Stunt Show
@@ -31,7 +31,7 @@ const Extravag = () => {
             fraction of seconds got all the attention it deserved.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i2} alt="" />
           <p className="text-xl  text-center p-1 font-semibold">Archery</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -41,7 +41,7 @@ const Extravag = () => {
             it.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i3} alt="" />
           <p className="text-xl  text-center p-1 font-semibold">Ninja Star</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -53,7 +53,7 @@ const Extravag = () => {
             spot.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i4} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Axe Throwing</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -63,7 +63,7 @@ const Extravag = () => {
             Axe Throw is made for you.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i5} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Blow Dart Gun</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -72,7 +72,7 @@ const Extravag = () => {
             best shot to win.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i6} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Go-Karting</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -82,7 +82,7 @@ const Extravag = () => {
             dormant karter in those layman unviel.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i7} alt="" />
           <p className="text-xl text-center p-1 font-semibold">
             Speed Painting
@@ -93,7 +93,7 @@ const Extravag = () => {
             witnessed one such maestro of speed painting - Amit Verma.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i8} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Rapelling</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -102,7 +102,7 @@ const Extravag = () => {
             Bridge.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i9} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Caricatures</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -113,7 +113,7 @@ const Extravag = () => {
             'Extravaganza', a chance to live this fantasy with Caricatures!
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i10} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Beatboxing</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -124,7 +124,7 @@ const Extravag = () => {
             musicality.
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
           <img src={i11} alt="" />
           <p className="text-xl text-center p-1 font-semibold">Power Bocking</p>
           <p className="text-justify p-1 xs:text-sm">
@@ -134,7 +134,7 @@ const Extravag = () => {
             storm Paramarsh'15 invited the Bocker's to set their stunts on!
           </p>
         </div>
-        <div className="w-[30vw] h-[70vh] p-10 md:w-[50vw] sm:w-[100vw]">
+        <div className="w-[30vw] h-[70vh] md:w-[50vw] sm:w-[100vw] px-[2vw] md:px-[5vw] sm:h-auto sm:py-[3vh]">
           <img src={i12} alt="" />
           <p className="text-xl text-center p-1 font-semibold">
             Freestyle Football

@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-
-import i1 from "../components/1.jpg";
+import YouTube from "react-youtube";
+// import i1 from "../components/1.jpg";
 
 const Home = (handleClick1) => {
   const categories = [
@@ -20,15 +20,22 @@ const Home = (handleClick1) => {
     { title: "Our Team", route: "/team" },
     { title: "Contact", route: "/contact" },
   ];
+  const opts = {
+    height: "312",
+    width: "512",
+    playerVars: {
+      autoplay: 0,
+    },
+  };
   return (
     <div className="w-full h-full">
-      <img
+      {/* <img
         src={i1}
         alt="bg"
         className="w-screen h-screen bg-cover bg-no-repeat fixed -z-10"
-      />
+      /> */}
 
-      <div className="mx-[10vw] bg-black/30">
+
         <div className="flex flex-col items-center text-white ">
           <p className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3  font-bold">
             PARAMARSH
@@ -38,10 +45,10 @@ const Home = (handleClick1) => {
           </p>
         </div>
         <div className="flex flex-col items-center text-white">
-          <p className="text-5xl md:text-4xl pt-[60vh] text-center">
+          <p className="text-5xl md:text-4xl pt-[70vh] text-center">
             Lorem, ipsum dolor.
           </p>
-          <p className="text-base px-8 pt-[10vh] text-justify xs:text-sm">
+          <p className="text-base px-[10vw] md:px-[5vw] pt-[10vh] text-justify xs:text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quis
             minus consequuntur commodi cumque explicabo amet! Sunt quam hic
             maiores mollitia, beatae itaque sed aperiam, eius doloremque
@@ -57,25 +64,11 @@ const Home = (handleClick1) => {
           </button>
         </div>
         <div className="flex flex-wrap justify-center">
-          <div className="flex p-2 overflow-hidden">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/2cgf2MuilPQ"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
+          <div className="flex p-5 overflow-auto">
+            <YouTube videoId="2cgf2MuilPQ" opts={opts} className=""/>
           </div>
-          <div className="flex p-2 overflow-hidden">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/GD0kufiqhM0"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
+          <div className="flex p-5 overflow-auto">
+            <YouTube videoId="GD0kufiqhM0" opts={opts} className=""/>
           </div>
         </div>
 
@@ -92,7 +85,7 @@ const Home = (handleClick1) => {
           ))}
         </div>
       </div>
-    </div>
+
   );
 };
 

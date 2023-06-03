@@ -8,7 +8,7 @@ const Smokal = () => {
     navigate(`/smokal/${dat.title}`, { state: { smokalData: smok, key } });
   };
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       <div className="flex flex-wrap items-center justify-center text-white">
         <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
           SMOKAL

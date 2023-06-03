@@ -18,18 +18,18 @@ const Contact = () => {
     setEmail(e.target.value);
   };
   return (
-    <div className="w-full h-full bg-black flex flex-wrap">
+    <div className="w-full h-full flex flex-wrap">
       <div className="flex flex-wrap text-white text-center justify-center">
-        <p className=" text-6xl md:text-5xl sm:text-4xl xs:text-2xl pt-[25vh] px-2 font-bold">
+        <p className=" text-6xl md:text-5xl sm:text-4xl xs:text-2xl pt-[25vh] px-2 font-bold w-full">
           CONTACT US
         </p>
-        <p className="text-base px-[15vw] p-[3vh] text-center justify-center font-semibold">
+        <p className="text-base px-[10vw] p-[3vh] text-center justify-center font-semibold">
           Find the nearest venues to your address or send us a message for
           further details about any events you’re interested in.
         </p>
       </div>
       <div className="flex">
-        <div className="w-[50vw] px-[10vw] space-y-3 py-10 sm:w-[100vw]">
+        <div className="w-[50vw] px-[5vw] space-y-3 py-10 sm:w-[100vw]">
           <input
             type="text"
             placeholder="Name"

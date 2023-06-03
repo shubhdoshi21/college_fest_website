@@ -2,8 +2,8 @@ import React from "react";
 import i from "../components/mylswami.png";
 const Guestlec = () => {
   return (
-    <div className="w-full h-full bg-black px-[10vw]">
-      <div className="text-5xl md:text-4xl sm:text-3xl flex justify-center text-center font-bold text-white py-[5vh] px-[5vw]">
+    <div className="w-full h-full">
+      <div className="text-5xl md:text-4xl sm:text-3xl flex justify-center text-center font-bold text-white py-[10vh] px-[5vw]">
         GUEST LECTURE OF PARAMARSH'23
       </div>
 
