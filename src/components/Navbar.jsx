@@ -26,7 +26,7 @@ const Navbar = () => {
       route7: "/event/Faneticz",
       route8: "/event/Adrenaline-Rush",
     },
-    { title: "Our Team", route: "/team", route1:"/web" },
+    { title: "Our Team", route: "/team", route1: "/web" },
   ];
 
   const segments = [
@@ -99,10 +99,11 @@ const Navbar = () => {
       </div>
       <motion.div
         className="cursor-pointer text-lg w-32 text-white flex flex-row h-[10vh]  hover:text-slate-400"
-        onMouseEnter={showHandler1}
-        onMouseLeave={showHandler1}
+        onMouseEnter={() => setshowNavbar(true)}
+        onMouseLeave={() => setshowNavbar(false)}
+        onClick={showHandler1}
       >
-        <div className="self-center w-24 text-center ">Segments</div>
+        <div className="self-center w-24 text-center">Segments</div>
         {!showNavbar ? (
           <BsChevronDown
             size={15}
