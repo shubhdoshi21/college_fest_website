@@ -33,16 +33,11 @@ const Estuffmain = () => {
   };
   return (
     <div className="w-full h-full text-white text-center">
-      {/* <img
-      src={i1}
-      alt="bg"
-      className="w-screen h-screen bg-cover bg-no-repeat fixed -z-10"
-    /> */}
       <div className="flex items-center justify-center">
         <img
           src={data.img}
           alt={data.title}
-          className="w-[90vw] px-[5vw] pt-[10vh]"
+          className="w-[90vw] px-[3vw] pt-[10vh]"
         />
       </div>
 

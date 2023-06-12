@@ -1,5 +1,5 @@
 import React from "react";
-import i from "../components/mylswami.png";
+import images from "../assets/shubh/images";
 const Guestlec = () => {
   return (
     <div className="w-full h-full">
@@ -8,7 +8,7 @@ const Guestlec = () => {
       </div>
 
       <div className="flex  justify-center flex-col">
-        <img src={i} alt="bg" className="w-[80vw] self-center" />
+        <img src={images.GL} alt="bg" className="w-[80vw] self-center" />
         <p className="text-center font-semibold text-white text-4xl md:text-3xl sm:text-2xl py-[5vh]">
           Dr Mylswamy Anudurai
         </p>
@@ -30,12 +30,10 @@ const Guestlec = () => {
 
         <ul className="list-disc px-[3vw]">
           <li>
-            {" "}
             He is Vice President of Tamil Nadu State Council for Science and
             Technology.
           </li>
           <li>
-            {" "}
             He is Chairman and Board of Governor of the National Research and
             Design Forum.
           </li>

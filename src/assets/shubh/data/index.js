@@ -1,5 +1,5 @@
 import images from "../images";
-const data = [
+const events = [
   {
     img: images.i1,
     title: "Eloquence",
@@ -230,5 +230,211 @@ export const stuff = [
     r4: "Participants should arrive on time.",
   },
 ];
+export const sponsor = [
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Name of the company",
+    link: "web link of company",
+    imageUrl: images.clogo,
+  },
+];
 
-export default data;
+export const extravag = [
+  {
+    img: images.extra1,
+    title: "KTM Stunt Show",
+    desc: "KTM is known for its off-road motorcycles and is also one of the most popular two wheelers among youth. KTM brought some of the most experienced stuntmen to our campus under extravaganza and within fraction of seconds got all the attention it deserved.",
+  },
+  {
+    img: images.extra2,
+    title: "Archery",
+    desc: "Archery, a game of concentration and the perfect balance of your mind and body, is what Paramarsh presents to you in extravaganza. Fix your target, pull the string, close your one eye, and aim for it.",
+  },
+  {
+    img: images.extra3,
+    title: "Ninja Star",
+    desc: 'Do you aspire to perform all the ninja tasks with your concentration and power? Was Ninja Hattori your spirit character in your childhood? Then Paramarsh gives you a chance to fulfill your childhood dream by presenting "Ninja Star", a typical ninja technique as a part of extravaganza. Pull up your sleeves to hit the spot.',
+  },
+  {
+    img: images.extra4,
+    title: "Axe Throwing",
+    desc: "A deadly tool with an edge so sharp that it can cut even a tree in two, boon if used carefully, curse if you miss by a millimeter. If you have the capability to handle it wisely and shot it perfectly, Axe Throw is made for you.",
+  },
+  {
+    img: images.extra5,
+    title: "Blow Dart Gun",
+    desc: "Blow dart gun, the best weapon if you have the precision and the worst if you fumble. Blow dart gun is a game where you take your best shot to win.",
+  },
+  {
+    img: images.extra6,
+    title: "Go-Karting",
+    desc: "Go-karting an adventurous Motorsport . One that entices the novice to ride. Held in the open circuits , the enthusiasts race upon the tracks ! Those tech Karts publicised their presence and let the dormant karter in those layman unviel.",
+  },
+  {
+    img: images.extra7,
+    title: "Speed Painting",
+    desc: "Speed painting is exactly what you'd imagine – art against the clock. Adroitness at its best, is what you see. Paramarsh'16 witnessed one such maestro of speed painting - Amit Verma.",
+  },
+  {
+    img: images.extra8,
+    title: "Rapelling",
+    desc: "The adventures you have imagined to have performed were brought into live experience at Paramarsh'16 in the form of Rapelling and Burma Bridge.",
+  },
+  {
+    img: images.extra9,
+    title: "Caricatures",
+    desc: "'Only hackers are different from programmers and computer users.' It has been rightly said by Walt Disney, 'All cartoon characters and fables must be exaggeration, caricatures. It is the very nature of fantasy and fable'. Paramarsh bought to you, under the banner of 'Extravaganza', a chance to live this fantasy with Caricatures!",
+  },
+  {
+    img: images.extra10,
+    title: "Beatboxing",
+    desc: "A perfect combination of synchronization, energy, passion and expression in addition to the exceptional talent showcased by Beatboxing berserk Deepak Soni, Paramarsh '14 witnessed the enthralled masses being mesmerised by his magnificent sense of musicality.",
+  },
+  {
+    img: images.extra11,
+    title: "Power Bocking",
+    desc: "Power Bocking- Act for the Steeled The extreme sport of jumping and running with spring stilts gets the audience stunned. The power strider's makes their moves to entertain the mass. Taking MSU by storm Paramarsh'15 invited the Bocker's to set their stunts on!",
+  },
+  {
+    img: images.extra12,
+    title: "Freestyle Football",
+    desc: "A highly anticipated combination of arcade action which exposes the heart of the world's beautiful game, on-the-ball flare, the freestyle football recepted scores of frenzied applause from the mass audience.",
+  },
+];
+export const pronite = [
+  {
+    img: images.pro1,
+    title: "Rahul Dua",
+    desc: 'An established India stand-up comedian & brightest comic of the new generation "Rahul Dua" made 2020 mesmerized and full of laughters with his Performance under the banner of pronite. Rahul Dua caught his first big break when he appeared on "Comicstaan", a comedy reality show. He is also an active YouTuber and his Videos go viral. His genre of comedy is observational comedy.',
+  },
+  {
+    img: images.pro2,
+    title: "Ritviz",
+    desc: "Let's take a trip down the memory lane of 2019 when Ritviz illuminated Paramarsh's stage with his presence and made the atmosphere worth remembering. The beloved sensation who debuted several years ago and conquered the hearts of youth, RITVIZ is also an internationally renowned electronic popstar who has everyone hooked up on his beats. A desi pop playlist with his popular songs Udd Gaye and Sage is what keeps you moving on the dance floor.",
+  },
+  {
+    img: images.pro3,
+    title: "Mohammed Irfan",
+    desc: '2018 marks remarkable stage lit performance of Mohammed Irfan. His soft voice truly drew the attention of romantic music listeners. He is also well known for being able to sing in several languages. His journey in the industry accelerates and he collaborated with the music directors like Sajid-Wajid, Himesh Reshammiya, Meet Bros, Jeet Ganguly and many more. 2014 has been a successful year for Irfan where he lent his voice for many hit songs like "Baarish" from Yaariyan, "Muskurane" from Citylights, "Banjaara" from Ek Villain, "Dard Dilo Ke" from The Xpose and "Tu Hi Tu" from Kick. The song "Banjaara" composed and written by Mithoon Sharma conquered hearts and many more. In the same year he made it to Mirchi Top 20 Jubilee’s Awards for the song Banjaara (Ek Villian), Best Singer for the song Dard Dilo Ke (The Xpose) at Life Ok Awards. This is how he is rocking in the film industry.',
+  },
+  {
+    img: images.pro4,
+    title: "The Local Train Band",
+    desc: " The Local Train, the name itself suggests it to be a concoction of varied Indian culture. Its not just a band, but an emotion . It was ranked India’s no.1 rock band by Sennheiser. Their album ‘Aalas Ka Pedh’ went on to become one of the highest selling independent albums of the year and was also featured on the list of “Most Streamed Albums” on Apple Music. Their marvellous performance blessed the stage of Paramarsh'17.",
+  },
+  {
+    img: images.pro5,
+    title: "Nikhita Gandhi",
+    desc: "Nikhita Gandhi, an epitome of most diversified vocalist, is an Indian playback singer who has worked in Indian films in four different languages. She has recently sung as the face of Kriti Sanon in Raabta for the title track ‘Raabta’. Her song ‘Ullu ka Pattha’(Jagga Jasoos), a duet with Arijit Singh is also a hit song.",
+  },
+  {
+    img: images.pro6,
+    title: "Lagoori Band",
+    desc: "Lagori makes music that reflects the face of the modern Indian youth. This band combines Indian classical melodies and inflections with Rock music, resulting in an interesting mix that is high on energy, being catchy and soulful at the same time. Paramarsh’16 beholds memories of experiencing this great band performance.",
+  },
+  {
+    img: images.pro7,
+    title: "Shefali Alvares",
+    desc: "Shefali Alvares is a liberal melody that grabs a foothold at Jazz and has enchanted Bollywood with her versatile diction. Her famous songs include ‘Badtameez Dil’, ‘Steal the Night’, ‘Ratta Maar’, ‘Dhatting Nach’, and many more. Paramarsh'16 was a witness to her enchanting performance.",
+  },
+  {
+    img: images.pro8,
+    title: "Tochi Raina",
+    desc: "A notable playback singer in Hindi films, Tochi Raina's famous works include ‘Kabira’ from “Yeh Jawaani Hai Deewani”, ‘Iktara’ from 'Wake up Sid', ‘Saibo’ for the Hindi movie “Shor in the City” a duet with Shreya Ghoshal and many others. An awesome musical night was experienced by Paramarsh’15 in tune with Tochi Raina.",
+  },
+  {
+    img: images.pro9,
+    title: "Raghu Dixit",
+    desc: "Raghu Dixit, an Indian singer, composer, producer is the front-man for the Raghu Dixit Project, a multi-lingual folk music band. This band is known for their unique combination of Indian traditional sounds and western medleys. This band has a modern, global sound and that is rooted and true to India's rich cultural heritage.Paramarsh’14 had the pleasure of witnessing this rich in culture band.",
+  },
+  {
+    img: images.pro10,
+    title: "Paradigm Shift Band",
+    desc: "Paradigm Shift is a Mumbai-based progressive rock band. Their music is an amalgamation of various genres of music, combining Indian classical music with contemporary Progressive Rock themes. Their famous compositions include ‘Khwabon Mein’, ‘Deedar’ and many more.",
+  },
+  {
+    img: images.pro11,
+    title: "Aditi Singh Sharma",
+    desc: "Aditi Singh Sharma is an Indian playback singer who made her singing debut in Bollywood with Anurag Kashyap’s Dev D. She’s famous for her work in movies like ‘No One Killed Jessica’, ‘Heroine’ and ‘Agent Vinod’. She has also worked for MTV’s Coke Studio.",
+  },
+  {
+    img: images.pro12,
+    title: "Parikrama Band",
+    desc: 'Parikrama is a Rock and Roll band from Delhi, India. They have several live performances and original numbers to their name. This band is renowned to be the "Indian God of Rock". Most of their recordings are made in live performances. ‘But It Rained’ (1996) is their biggest hit ever!',
+  },
+  {
+    img: images.pro13,
+    title: "Benny Dayal",
+    desc: "Benny Dayal, a singer who hails from the state of Kerala, is a member of the band S5. Given a break by A.R. Rahman, he has churned out many hit numbers. His famous songs include ‘Ekk Main Aur Ekk Tu’ and ‘Daaru Desi’. He was here to present an exhilarated performance in Paramarsh’12.",
+  },
+  {
+    img: images.pro14,
+    title: "Suraj Jagan",
+    desc: "Suraj Jagan is a famous Indian playback singer of Malyali origin. He is prominently noted for the song ‘Give Me Some Sunshine’ from the award-winning film 3 Idiots which received 'The Best Emerging Male Performer’ award. Suraj has also sung many famous songs like ‘Sadka Kiya’ (I hate luv storys), ‘Dil Dhadakne Do’ (Zindagi na milegi dobara) and many more. He has also been front man for the rock band 'Dream Out Loud'. Paramarsh'11 danced to the electrifying beats of Suraj Jagan.",
+  },
+];
+
+export const sanidhya = [
+  {
+    img: images.sanid1,
+    title: "Saplings Distribution",
+    desc: "Conservation is a crucial issue to confront the challenges mpther earth is facing such as climate change, urbanization, pollution, deforestation, and damage to the affluent flora and fauna. Assessing the opportunity, On World Nature Conservation Day Paramarsh scheduled an awareness-raising Drive at kamatibaug. In this drive, we educated pedestrians & common crowd about the threat of extinction to flora & fauna species and also distributed 100+ saplings.",
+  },
+  {
+    img: images.sanid2,
+    title: "Little Steps",
+    desc: "A small step towards the upliftment counts. We at Paramarsh, believe the same. This year we conducted a donation drive , providing underprivileged kids with educational kits and boosting up their confidence with our little step towards development.",
+  },
+  {
+    img: images.sanid3,
+    title: "Speaking Street",
+    desc: "Youth is the treasure of a nation. What would happen if that only is misguided by the culpability of the society. To spread awareness regarding the same, Paramarsh'17 conducted street plays all over the city.",
+  },
+];
+export const workshop = [
+  {
+    img: images.ws1,
+    title: "Corporate Grooming & Etiquettes",
+    desc: "First impressions are important as they represent your personality and organization. Moreover, surveys have revealed that people intuitively correlate groomed personality with concepts like better, smart, confident or even successful. Would Harvey Specter be the strong, intimidating and charming man if it wasn't for his branding and etiquette? Personal grooming and etiquette signify your individuality and ethics. The exclusive opportunity brought to you by Paramarsh to master charisma So You can Mark your presence without uttering a phrase. Enroll now to stand out from an ordinary crowd by honing yourself in grooming & etiquette.",
+  },
+  {
+    img: images.ws2,
+    title: "Empowering 5G Technology in India",
+    desc: "Isnt it annoying when your internet sucks and the buffering makes it difficult to watch your favourite shows? The only solution to this dilemma is the latest 5G Technology enrooting our lives and paving way for nation's digital transformation. Our Government has directed the path to a brighter future by laying the idea of 5G technology in every nook and corner. This milestone unveils huge chances for India to become a high-tech hub globally. Get a chance to enhance your knowledge about the 5G technology and knowing a world away from these technical degrees through our exclusive workshop which will leave your brain tabs open.",
+  },
+  {
+    img: images.ws3,
+    title: "The Stock Market and Passive Income",
+    desc: 'An individual can actualize their scope of ambitions with ethical knowledge of Passive Income even if they are a Beginner. Passive income can be generated through investing in certain financial stocks which will generate wealth without any need of work. We bring to you the most established route for investing & trading in the Stock Market while generating passive income through our workshop on "The Stock Market and Passive Income".',
+  },
+];
+export default events;

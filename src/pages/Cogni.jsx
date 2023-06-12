@@ -1,7 +1,5 @@
 import React from "react";
-
-import i1 from "../components/arena.jpg";
-import i2 from "../components/radio.png";
+import images from "../assets/shubh/images";
 const Cogni = () => {
   return (
     <div className=" text-white">
@@ -36,16 +34,14 @@ const Cogni = () => {
         </ul>
       </div>
       <div className="flex flex-col items-center px-10">
-        <p className="text-3xl md:text-2xl sm:text-xl pt-[10vh] text-center">
+        <p className="text-3xl md:text-xl sm:text-lg pt-[10vh] text-center">
           COMPANIES AFFILIATED WITH US:
         </p>
         <p className="text-2xl md:text-xl sm:text-lg py-[5vh]">
           TECHNICAL COMPANIES
         </p>
 
-        <p className="text-2xl md:text-xl sm:text-lg">
-          OUT OF THE BOX SECTORS
-        </p>
+        <p className="text-2xl md:text-xl sm:text-lg">OUT OF THE BOX SECTORS</p>
         <ul className="list-disc pt-[2vh]">
           <li>3D printing</li>
           <li>Animation</li>
@@ -81,11 +77,11 @@ const Cogni = () => {
           PAST VISITS:
         </div>
         <div className="w-[50vw] px-[5vw] md:w-[100vw]">
-          <img src={i1} alt="" />
+          <img src={images.cogni1} alt="" />
           <p className=" text-center p-1">Arena Animation</p>
         </div>
         <div className="w-[50vw] px-[5vw] md:w-[100vw]">
-          <img src={i2} alt="" />
+          <img src={images.cogni2} alt="" />
           <p className=" text-center p-1">Radio Mirchi</p>
         </div>
       </div>

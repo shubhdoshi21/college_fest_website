@@ -46,12 +46,15 @@ const Sidebar = ({ handleClick }) => {
     { title: "Cognizance", route: "/cogni" },
     { title: "Sanidhya", route: "/sanidhya" },
     { title: "Pronite", route: "/pronite" },
+    { title: "Sponsors", route: "/sponsor" },
     { title: "Our Team", route: "/team", route1: "/web" },
     { title: "Contact", route: "/contact" },
   ];
 
   return (
-    <div className="text-white fixed h-screen bg-black/75 w-[25vw] md:w-[35vw] sm:w-[60vw] xs:w-[100vw] text-lg overflow-scroll z-50">
+    <div
+      className={`text-white fixed h-screen bg-black/75 w-[25vw] md:w-[35vw] sm:w-[60vw] xs:w-[100vw] overflow-scroll z-50 ease-in-out duration-300 `}
+    >
       <div className=" absolute top-10 left-10 cursor-pointer">
         <RxCross1 color="white" size="30px" onClick={handleClick} />
       </div>
@@ -59,7 +62,7 @@ const Sidebar = ({ handleClick }) => {
         {categories.map((category, key) => (
           <p
             key={key}
-            className="cursor-pointer hover:scale-110 transition duration-200 hover:text-slate-500 "
+            className="cursor-pointer text-lg hover:scale-110 transition duration-200 hover:text-slate-500 "
           >
             <Link
               to={category.route}
@@ -74,7 +77,7 @@ const Sidebar = ({ handleClick }) => {
                 location.pathname === category.route6 ||
                 location.pathname === category.route7 ||
                 location.pathname === category.route8
-                  ? "text-black bg-white rounded-full p-2"
+                  ? "text-slate-400"
                   : ""
               }
             >

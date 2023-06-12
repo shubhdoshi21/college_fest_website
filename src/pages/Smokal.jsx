@@ -19,7 +19,7 @@ const Smokal = () => {
               src={dat.img}
               alt={dat.title}
               onClick={() => navigateHandler(dat, smok, key)}
-              className="p-10 w-[40vw] sm:w-[100vw] flex lg:w-[50vw] hover:scale-110 transition duration-300"
+              className="px-[3vw] py-[3vh] w-[40vw] sm:w-[100vw] flex lg:w-[50vw] hover:scale-110 transition duration-300"
             />
           ))}
         </div>
