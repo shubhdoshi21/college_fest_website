@@ -1,28 +1,45 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { stuff } from "../assets/shubh/data";
 import { useNavigate } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Estuff = () => {
+  useEffect(() => {
+    Aos.init({
+      offset: 10,
+    });
+  });
   const navigate = useNavigate();
   const navigateHandler = (dat, stuff, key) => {
     navigate(`/estuff/${dat.title}`, { state: { estuffData: stuff, key } });
   };
   return (
-    <div className="w-full h-full">
-      <div className="flex flex-wrap items-center justify-center text-white">
-        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] pb-[10vh] px-3 w-[100vw] text-center font-bold">
-          E-STUFF
-        </div>
-        <div className="flex flex-wrap w-[100vw] items-center justify-center">
-          {stuff.map((dat, key) => (
+    <div className="py-[10vh] md:pb-[5vh] md:pt-0">
+    <section className="wrapper1">
+      <div className="top tracking-normal px-2 ">E-STUFF</div>
+
+      <div className="bottom tracking-normal px-2" aria-hidden="true">
+        E-STUFF
+      </div>
+    </section>
+
+      <div className="eventB-container text-center mt-[20vh] md:mt-14 justify-evenly ">
+        {stuff.map((dat, key) => (
+          <div
+            className="eventB-card rounded-xl cursor-pointer w-[500px] "
+            data-aos="fade-in"
+            data-aos-duration="1500"
+            key={key}
+          >
             <img
               src={dat.img}
               alt={dat.title}
               onClick={() => navigateHandler(dat, stuff, key)}
-              className="px-[3vw] py-[3vh] w-[40vw] sm:w-[100vw] flex lg:w-[50vw] hover:scale-110 transition duration-300"
+              className="eventB-img z-40 "
             />
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { RxCross1 } from "react-icons/rx";
 import { Link, useLocation } from "react-router-dom";
 
-const Sidebar = ({ handleClick }) => {
+const Sidebar = ({ handleClick, setShowModal, showModal }) => {
   const location = useLocation();
   const categories = [
     { title: "Home", route: "/" },
@@ -48,12 +48,11 @@ const Sidebar = ({ handleClick }) => {
     { title: "Pronite", route: "/pronite" },
     { title: "Sponsors", route: "/sponsor" },
     { title: "Our Team", route: "/team", route1: "/web" },
-    { title: "Contact", route: "/contact" },
   ];
 
   return (
     <div
-      className={`text-white fixed h-screen bg-black/75 w-[25vw] md:w-[35vw] sm:w-[60vw] xs:w-[100vw] overflow-scroll z-50 ease-in-out duration-300 `}
+      className={`text-purple-200 fixed h-screen bg-black/75 w-[25vw] md:w-[35vw] sm:w-[60vw] xs:w-[100vw] overflow-scroll z-50 ease-in-out duration-300 backdrop-blur-md`}
     >
       <div className=" absolute top-10 left-10 cursor-pointer">
         <RxCross1 color="white" size="30px" onClick={handleClick} />
@@ -62,7 +61,7 @@ const Sidebar = ({ handleClick }) => {
         {categories.map((category, key) => (
           <p
             key={key}
-            className="cursor-pointer text-lg hover:scale-110 transition duration-200 hover:text-slate-500 "
+            className="cursor-pointer text-lg hover:scale-110 transition duration-200 hover:text-purple-300 "
           >
             <Link
               to={category.route}
@@ -77,7 +76,7 @@ const Sidebar = ({ handleClick }) => {
                 location.pathname === category.route6 ||
                 location.pathname === category.route7 ||
                 location.pathname === category.route8
-                  ? "text-slate-400"
+                  ? "text-purple-500"
                   : ""
               }
             >
@@ -85,6 +84,16 @@ const Sidebar = ({ handleClick }) => {
             </Link>
           </p>
         ))}
+      </div>
+      <div className="pl-20 py-3">
+        <p
+          className={`cursor-pointer text-lg hover:scale-110 transition duration-200 hover:text-purple-300 ${
+            showModal ? "text-purple-500" : "text-purple-200"
+          }`}
+          onClick={() => setShowModal(true)}
+        >
+          Contact
+        </p>
       </div>
     </div>
   );

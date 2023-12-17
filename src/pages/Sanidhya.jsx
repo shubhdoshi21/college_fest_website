@@ -3,16 +3,20 @@ import { sanidhya } from "../assets/shubh/data";
 
 const Sanidhya = () => {
   return (
-    <div className=" text-white">
-      <div className="flex flex-wrap items-center justify-center text-white">
-        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-5xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
+    <div className="py-[10vh] md:pb-[5vh] md:pt-0 text-purple-300">
+      <section className="wrapper1">
+        <div className="top tracking-normal px-2 ">SANIDHYA</div>
+
+        <div className="bottom tracking-normal px-2" aria-hidden="true">
           SANIDHYA
         </div>
+      </section>
+      <div className="flex flex-wrap items-center justify-center gap-5 px-5">
         {sanidhya.map((dat, key) => (
-          <div className="w-[33vw] h-[575px] px-[2vw] py-[3vh] md:w-[50vw] sm:w-[100vw] sm:h-auto">
-            <img src={dat.img} alt={dat.title} className="" />
-            <p className="text-xl text-center p-1 font-semibold">{dat.title}</p>
-            <p className="text-justify p-1">{dat.desc}</p>
+          <div className="hover:scale-105 transition duration-300 para flex-col w-96">
+            <img src={dat.img} alt={dat.title} className="p-1 border-b border-b-purple-600 w-full" />
+            <p className="text-xl text-center p-1 font-semibold borderzz">{dat.title}</p>
+            <p className="text-justify p-2 xs:text-sm h-56 sm:h-auto overflow-scroll">{dat.desc}</p>
           </div>
         ))}
       </div>

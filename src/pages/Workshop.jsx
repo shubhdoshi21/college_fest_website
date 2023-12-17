@@ -2,38 +2,45 @@ import React from "react";
 import { workshop } from "../assets/shubh/data";
 const Workshop = () => {
   return (
-    <div className="w-full h-full items-center justify-center text-white flex flex-wrap ">
-      <div className="text-5xl md:text-4xl sm:text-3xl flex justify-center text-center font-bold text-white py-[10vh] px-[5vw] w-full">
-        WORK-SHOPS OF PARAMARSH'23
-      </div>
-      {workshop.map((dat, key) => (
-        <div className="w-[33vw] h-[900px] md:w-[50vw] sm:w-[100vw] sm:h-auto  px-[2vw] py-[3vh]">
-          <img src={dat.img} alt={dat.title} className="w-full h-64" />
-          <p className="text-xl text-center py-[2vh] px-[1vw] font-semibold">
-            {dat.title}
-          </p>
-          <p className="text-justify">{dat.desc}</p>
-          <p className="text-xl text-left py-[2vh] font-semibold">
-            Topics Included :
-          </p>
-          <ul className="list-disc px-[4vw]">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+    <div className="py-[10vh] md:pb-[5vh] md:pt-0 text-purple-300">
+      <section className="wrapper1">
+        <div className="top tracking-normal px-2 md:text-[70px] sm:text-[45px] xs:text-[30px]">WORK-SHOPS'23</div>
+
+        <div className="bottom tracking-normal px-2 md:text-[70px] sm:text-[45px] xs:text-[30px]" aria-hidden="true">
+          WORK-SHOPS'23
         </div>
-      ))}
-      <div className="flex items-center flex-wrap justify-center py-[5vh] w-[100vw]">
-        <button className="text-center text-white border border-x-white border-y-slate-400 p-2  hover:bg-black/80">
-          REGISTER HERE
-        </button>
+      </section>
+      <div className="flex flex-wrap items-center justify-center gap-5 px-5">
+        {workshop.map((dat, key) => (
+          <div className="hover:scale-105 transition duration-300 para flex-col w-96">
+            <img
+              src={dat.img}
+              alt={dat.title}
+              className="p-1 border-b border-b-purple-600 w-full h-64"
+            />
+            <p className="text-xl text-center p-1 font-semibold borderzz">
+              {dat.title}
+            </p>
+            <p className="text-justify p-2 xs:text-sm h-80 sm:h-auto overflow-scroll">
+              {dat.desc}
+            </p>
+            <p className="text-lg xs:text-base p-2">Topics Included :</p>
+            <ul className="list-disc px-4 pb-4">
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+          </div>
+        ))}
       </div>
-      <div className="px-[10vw] md:px-[5vw] text-left pb-[5vh]">
+      <div className="flex items-center flex-wrap justify-center py-5 w-[100vw]">
+        <button className="text-center p-2 btn">REGISTER HERE</button>
+      </div>
+      <div className="px-10 md:px-5 text-left">
         <p>For Queries,</p>
         <p>Contact :-</p>
-        <p>Divyadeepsinh Gohil : +91 9081578050</p>
+        <p>Divyadeepsinh Gohil : (+91) 9081578050</p>
       </div>
     </div>
   );

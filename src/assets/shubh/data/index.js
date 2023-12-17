@@ -144,9 +144,9 @@ export const smok = [
     desc: "The charisma of a dancer and the captivating moves of their devotion is what leaves the people awestruck. The masters of this magic are no less than a poetry in motion. For all those dancers out there, Broadway Beats is a platform to showcase your talent to the public and move your feet to the beats of your dream.",
     fees: "Solo - 100, Duet - 170, Group - 400",
     participation: "Solo, Duet or Group",
-    r1: "A total of 10 minutes will be given to each participant.",
-    r2: "Music for the performance should be given to team Paramarsh well ahead of the time of performance.",
-    r3: "The final authority lies with team Paramarsh.",
+    r1: "1) A total of 10 minutes will be given to each participant.",
+    r2: "2) Music for the performance should be given to team Paramarsh well ahead of the time of performance.",
+    r3: "3) The final authority lies with team Paramarsh.",
   },
   {
     img: images.s2,
@@ -154,9 +154,9 @@ export const smok = [
     desc: "Come and witness if you have what it takes to be India's best stand-up comedian as Paramarsh presents 'Comicality', an unprecedented competition in which comedians compete with their finest punchlines and on-the-spot delivery. It all comes down to who can make everyone laugh the loudest.",
     fees: "50",
     participation: "Solo",
-    r1: "A total of 10 minutes will be given to each participant.",
-    r2: "The content should be original and not copied from some other comedian or social media sources.",
-    r3: "The performer cannot use swearing, bad humour and cannot insult any audience member.The final authority lies with team Paramarsh.",
+    r1: "1) A total of 10 minutes will be given to each participant.",
+    r2: "2) The content should be original and not copied from some other comedian or social media sources.",
+    r3: "3) The performer cannot use swearing, bad humour and cannot insult any audience member.The final authority lies with team Paramarsh.",
   },
   {
     img: images.s3,
@@ -164,9 +164,9 @@ export const smok = [
     desc: '"If Music is a Place — then Jazz is the City, Folk is the Wilderness, Rock is the Road, Classical is a Temple." One of those platforms where participants can sing their feelings out . Paramarsh takes into account all this and a segment named “Enchantz” is organised as a part of the event. 2020 is the year when Enchantz was embraced". Singing is the corroboration of passion for music, as we can express our feelings, moods, and emotions to the world very easily. So get ready to sing your heart out in "Enchantz" where music meets the soul.',
     fees: "Solo- 100, Duet- 170",
     participation: "Solo or Duet",
-    r1: "A total of 10 minutes will be given to each participant.",
-    r2: "Background music for the performance should be given to team Paramarsh well ahead of the time of performance and music should be instrumental.",
-    r3: "The language used should be Hindi or English.The final authority lies with team Paramarsh.",
+    r1: "1) A total of 10 minutes will be given to each participant.",
+    r2: "2) Background music for the performance should be given to team Paramarsh well ahead of the time of performance and music should be instrumental.",
+    r3: "3) The language used should be Hindi or English.The final authority lies with team Paramarsh.",
   },
   {
     img: images.s4,
@@ -174,9 +174,9 @@ export const smok = [
     desc: "The influence of a pause is “CAESURA” that drives the passion of brilliance through its segment, showcasing a platform for the budding poets who feel the core of expressions through Hindi/English Poetry Slam competition",
     fees: "50",
     participation: "Solo",
-    r1: "A total of 4 minutes will be given to each participant to perform his/her original piece of work in Hindi/English.",
-    r2: "Each poem must be the poet's original creation.The content should not hurt sentiments of any religion or political groups.",
-    r3: "Usage of any kinds of props or musical instruments is not allowed.The final authority lies with team Paramarsh.",
+    r1: "1) A total of 4 minutes will be given to each participant to perform his/her original piece of work in Hindi/English.",
+    r2: "2) Each poem must be the poet's original creation.The content should not hurt sentiments of any religion or political groups.",
+    r3: "3) Usage of any kinds of props or musical instruments is not allowed.The final authority lies with team Paramarsh.",
   },
   {
     img: images.s5,
@@ -184,9 +184,9 @@ export const smok = [
     desc: "The enlivening feeling of making the public sway to your fervour is not less than any epic fulfilment of your passion. The joy of the grooves to your beats is surreal and leads to a journey beyond excellence. To all the fiery bands out there, join in for the Battle of Bands under Smokin’ aces and let your charm spread over.",
     fees: "1000 deposit(Refundable) + 500 charge",
     participation: "Band Group",
-    r1: "Bands will be given 30 minutes for performance including soundcheck.",
-    r2: "Genre: Rock, Fusion or Classical.",
-    r3: "The final authority lies with team Paramarsh.",
+    r1: "1) Bands will be given 30 minutes for performance including soundcheck.",
+    r2: "2) Genre: Rock, Fusion or Classical.",
+    r3: "3) The final authority lies with team Paramarsh.",
   },
 ];
 export const stuff = [
@@ -198,10 +198,10 @@ export const stuff = [
     desc: "Cricket to us is more than play; it is worship in the summer sun. A billion Voices, Just One Game. In a country where people of all ages play ‘gully cricket’ in every nook and cranny, where Sachin is a God to be admired and worshipped, where thousands throng around Raju Panvala to see what’s the score, it would be grave injustice if we, at Paramarsh didn’t introduce a game of Cricket. So we present you “The 22nd Yard” – because we know this is the game that you adore the most.",
     fees: "360",
     participation: "Team of 6",
-    r1: "Participation in a team of 6 - with minimum 1 female member.22nd yard is a Paramartian variant at cricket.",
-    r2: "t has many fun twists and turns in cricket.Competing participants must not collude to affect the event in any way.",
-    r3: "Few past years rules as an example 1. There will be 2 runs for a wide-ball. 2. There will be a bonus over, with double runs. 3. Limited runs in a specific place, six will be considered out.",
-    r4: "The participation should be college students irrespective of stream, course and year.Final authority lies with team Paramarsh.",
+    r1: "1) Participation in a team of 6 - with minimum 1 female member.22nd yard is a Paramartian variant at cricket.",
+    r2: "2) It has many fun twists and turns in cricket.Competing participants must not collude to affect the event in any way.",
+    r3: "3) Few past years rules as an example 1. There will be 2 runs for a wide-ball. 2. There will be a bonus over, with double runs. 3. Limited runs in a specific place, six will be considered out.",
+    r4: "4) The participation should be college students irrespective of stream, course and year.Final authority lies with team Paramarsh.",
   },
   {
     img: images.e2,
@@ -211,10 +211,10 @@ export const stuff = [
     desc: "Sports are spices to the element of life and what could be better than a game that runs as a communal source of entertainment throughout all age groups. Paramarsh happily presents “Battledore”, a badminton competition under its segment of E-Stuff. So come and shuttle out your talent, as the court of Battledore awaits you!",
     fees: "Single : 50 ,Doubles : 100",
     participation: "Single or Doubles",
-    r1: "Battledore is a box type area of fixed height and breadth.",
-    r2: "Point system of the game will be different from the regular game.",
-    r3: "Participants should arrive on time.",
-    r4: "Final authority lies with team Paramarsh.",
+    r1: "1) Battledore is a box type area of fixed height and breadth.",
+    r2: "2) Point system of the game will be different from the regular game.",
+    r3: "3) Participants should arrive on time.",
+    r4: "4) Final authority lies with team Paramarsh.",
   },
   {
     img: images.e3,
@@ -224,47 +224,10 @@ export const stuff = [
     desc: "It ain’t over ’til it’s over. Sweat. Grime. Dust… And the factor of uncertainty. You don’t know what is going on behind the wall, do you? The most loved game of Paramarsh is back in action. The game of Volleyball has never been the same again since Paramarsh introduced ‘Wall-E-Ball’. For those who have played, they know that it’s not just a twist in the tale, it is PRIME TIME ENTERTAINMENT.So get set for ‘Wall-E-Ball’, the ultimate Volleyball Championship. READY!",
     fees: "100",
     participation: "Team of 2",
-    r1: "Wall-E-Ball is a unique version of Volleyball.",
-    r2: "There will be curtains between the two opponent teams replacing the usual net.",
-    r3: "There will be some twist in the rules making it an interesting game play.",
-    r4: "Participants should arrive on time.",
-  },
-];
-export const sponsor = [
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
-  },
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
-  },
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
-  },
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
-  },
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
-  },
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
-  },
-  {
-    title: "Name of the company",
-    link: "web link of company",
-    imageUrl: images.clogo,
+    r1: "1) Wall-E-Ball is a unique version of Volleyball.",
+    r2: "2) There will be curtains between the two opponent teams replacing the usual net.",
+    r3: "3) There will be some twist in the rules making it an interesting game play.",
+    r4: "4) Participants should arrive on time.",
   },
 ];
 
@@ -331,6 +294,11 @@ export const extravag = [
   },
 ];
 export const pronite = [
+  {
+    img: images.pro,
+    title: "Madhur Sharma",
+    desc: 'Madhur Sharma is an Indian Playback singer and live performer from Bhopal based in Mumbai. He is well known for number of popular songs, including " KAALI KAALI ZULFON KE" . He has emerged as the most popular online sensation of 2022. He has garnered more than 500 million views and 71.1M streams across all media. His first original song "Yaari" was released in 2019 under "Times Music" and was a great hit. This song was released on the occasion of friendship day and have already crossed 2+ million views. Witness the immersive and soulful voice that will pierce your heart through the melodies songs.',
+  },
   {
     img: images.pro1,
     title: "Rahul Dua",
@@ -437,4 +405,28 @@ export const workshop = [
     desc: 'An individual can actualize their scope of ambitions with ethical knowledge of Passive Income even if they are a Beginner. Passive income can be generated through investing in certain financial stocks which will generate wealth without any need of work. We bring to you the most established route for investing & trading in the Stock Market while generating passive income through our workshop on "The Stock Market and Passive Income".',
   },
 ];
+
+export const sponsor = [
+  {
+    title: "Find me on Mastodon",
+    link: "http://www.msu-paramarsh.org",
+    imageUrl: images.clg,
+  },
+  {
+    title: "Find me on Mastodon",
+    link: "http://www.msu-paramarsh.org",
+    imageUrl: images.clogo,
+  },
+  {
+    title: "Find me on Mastodon",
+    link: "http://www.msu-paramarsh.org",
+    imageUrl: images.clg,
+  },
+  {
+    title: "Find me on Mastodon",
+    link: "http://www.msu-paramarsh.org",
+    imageUrl: images.clogo,
+  },
+];
+
 export default events;

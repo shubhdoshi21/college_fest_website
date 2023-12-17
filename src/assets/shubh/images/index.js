@@ -17,10 +17,11 @@ import e1 from "./stuff1.jpg";
 import e2 from "./stuff2.jpg";
 import e3 from "./stuff3.jpg";
 import logo from "./logo.jpg";
-import clogo from "./companylogo.jpeg";
 import bg from "./bg.jpg";
 import cogni1 from "./cogni1.jpg";
 import cogni2 from "./cogni2.png";
+import cogni3 from "./cogni3.jpg";
+import cogni4 from "./cogni4.jpg";
 import extra1 from "./extra1.jpg";
 import extra2 from "./extra2.jpg";
 import extra3 from "./extra3.jpg";
@@ -33,6 +34,7 @@ import extra9 from "./extra9.jpg";
 import extra10 from "./extra10.jpg";
 import extra11 from "./extra11.jpg";
 import extra12 from "./extra12.jpg";
+import procurrent from "./procurrent.jpg";
 import pro from "./pro.png";
 import pro1 from "./pro1.jpg";
 import pro2 from "./pro2.jpg";
@@ -57,10 +59,27 @@ import tranc2 from "./tranc2.jpg";
 import ws1 from "./wshop1.jpeg";
 import ws2 from "./wshop2.jpg";
 import ws3 from "./wshop3.jpeg";
-import patro1 from "./patro1.png";
-import patro2 from "./patro2.png";
-import patro3 from "./patro3.jpeg";
+import patro1 from "./patro1.jpg";
+import patro2 from "./patro2.jpg";
+import patro3 from "./patro3.jpg";
+import patro4 from "./patro4.jpg";
+import patro5 from "./patro5.jpg";
+import clg from "./clg.jpeg";
+import menu from "./menu.png";
 
+import tes1 from "./t1.jpg";
+import tes2 from "./t2.jpg";
+import tes3 from "./t3.jpg";
+import tes4 from "./t4.jpg";
+import tes5 from "./t5.jpg";
+import msulogo from "./MSUlogo.jpg";
+import startup from './startupedia.jpg'
+import team1 from "./team1.jpeg"
+import team2 from "./team2.jpeg"
+import team3 from "./team3.jpeg"
+import team4 from "./team4.jpeg"
+import team5 from "./team5.jpeg"
+import team6 from "./team6.jpeg"
 export default {
   i1,
   i2,
@@ -81,10 +100,11 @@ export default {
   ic1,
   ic2,
   logo,
-  clogo,
   bg,
   cogni1,
   cogni2,
+  cogni3,
+  cogni4,
   extra1,
   extra2,
   extra3,
@@ -97,6 +117,7 @@ export default {
   extra10,
   extra11,
   extra12,
+  procurrent,
   pro,
   pro1,
   pro2,
@@ -124,4 +145,21 @@ export default {
   patro1,
   patro2,
   patro3,
+  patro4,
+  patro5,
+  clg,
+  menu,
+  tes1,
+  tes2,
+  tes3,
+  tes4,
+  tes5,
+  msulogo,
+  startup,
+  team1,
+  team2,
+  team3,
+  team4,
+  team5,
+  team6,
 };

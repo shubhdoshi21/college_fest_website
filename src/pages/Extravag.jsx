@@ -3,16 +3,20 @@ import { extravag } from "../assets/shubh/data";
 
 const Extravag = () => {
   return (
-    <div className=" text-white">
-      <div className="flex flex-wrap items-center justify-center text-white">
-        <div className=" text-7xl md:text-6xl sm:text-4xl xs:text-3xl pt-[25vh] px-3 w-[100vw] text-center pb-[10vh]">
+    <div className="py-[10vh] md:pb-[5vh] md:pt-0 text-purple-300">
+      <section className="wrapper1">
+        <div className="top tracking-normal px-2 md:text-[70px] sm:text-[45px] xs:text-[30px]">EXTRAVAGANZA</div>
+
+        <div className="bottom tracking-normal px-2 md:text-[70px] sm:text-[45px] xs:text-[30px]" aria-hidden="true">
           EXTRAVAGANZA
         </div>
+      </section>
+      <div className="flex flex-wrap items-center justify-center gap-5 px-5">
         {extravag.map((dat, key) => (
-          <div className="w-[30vw] h-[70vh] px-[2vw] md:px-[5vw] md:w-[50vw] sm:w-[100vw] sm:h-auto sm:py-[3vh]">
-            <img src={dat.img} alt={dat.title} />
-            <p className="text-xl text-center p-1 font-semibold">{dat.title}</p>
-            <p className="text-justify p-1 xs:text-sm">{dat.desc}</p>
+          <div className="hover:scale-105 transition duration-300 para flex-col w-96">
+            <img src={dat.img} alt={dat.title} className="p-1 border-b border-b-purple-600 w-full" />
+            <p className="text-xl text-center p-1 font-semibold borderzz">{dat.title}</p>
+            <p className="text-justify p-2 xs:text-sm h-48 sm:h-auto overflow-scroll">{dat.desc}</p>
           </div>
         ))}
       </div>

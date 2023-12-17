@@ -1,75 +1,109 @@
 import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import images from "../assets/shubh/images";
 
 const Startup = () => {
+  Aos.init({
+    offset: 10,
+  });
+
   return (
-    <div className=" text-white">
-      <div className="flex flex-wrap items-center justify-center">
-        <div className=" text-9xl md:text-8xl sm:text-6xl xs:text-4xl pt-[25vh] px-3 w-[100vw] text-center font-bold">
-          STARTUPEDIA
-          <p className="text-4xl md:text-3xl sm:text-3xl xs:text-xl px-2 pt-[2vh] font-semibold">
-            A Development Dialogue
-          </p>
-          <p className="text-xl px-[10vw] md:px-[5vw] pt-[5vh] text-center font-semibold">
-            “It’s not magic. It’s talent and sweat” (Silicon Valley).
-          </p>
+    <>
+      <div className=" text-purple-300 px-20 md:px-10 sm:px-5 py-[10vh] md:pb-[5vh] md:pt-0">
+        <div className="flex justify-center w-full items-center flex-col">
+          <div className="overflow-hidden flex-col items-center">
+            <div className="flex justify-center items-center border-b-2 border-b-purple-600">
+              <img src={images.startup} alt="" />
+            </div>
+            <div className="">
+              <div
+                className="text-2xl md:text-xl sm:text-lg p-5 pt-10 mb-5 font-semibold bg-black/30 backdrop-blur-sm shadow-md ring-fuchsia-800 ring-1 rounded-lg m-1 "
+                data-aos="zoom-out"
+              >
+                <div className="text-center">
+                  It’s not magic. It’s talent and sweat” (Silicon Valley).
+                </div>
+                <div
+                  className=" text-lg sm:text-sm text-center pt-5"
+                  data-aos="zoom-out"
+                >
+                  Why not give that talent a platform, a stairway to success. An
+                  idea is the beginning of an achievement. Paramarsh’23 ignited
+                  the idea of Startupedia - a development dialogue, with the
+                  sole aim of giving path to young mind. We take pleasure in
+                  providing young innovators and entrepreneurs a platform to
+                  take their talent and ideas to the level they deserve.
+                  Cozoom-out with an idea isn’t enough, it is crafting of the
+                  idea into a real working thing, that’s a truly delightful
+                  experience. It is about making the idea come alive.
+                  Startupedia is amalgamation of workshops, consolidation,
+                  mentoring and presentation.
+                </div>
+              </div>
+
+              <div
+                className=" text-left mt-5 bg-black/30 backdrop-blur-sm shadow-md ring-fuchsia-800 ring-1 rounded-lg m-1 p-5 sm:text-sm"
+                data-aos="zoom-out"
+              >
+                <p className=""> Rules :</p>
+                <ol className="list-none p-5 paragraphtext">
+                  <li>
+                    1) Participants have to register via Konfhub. There is no
+                    fee for entry.
+                  </li>
+                  <li>
+                    2) Participation can be done as an individual or a team.
+                  </li>
+                  <li>
+                    3) Each individual or team may enter only one idea or
+                    concept.
+                  </li>
+                  <li>
+                    4) Pitch competitors cannot be part of multiple teams.
+                  </li>
+                  <li>5) Entries must be the original work of entrants.</li>
+                  <li>
+                    6) Ensure your availability on the day of the event before
+                    participating
+                  </li>
+                  <li>
+                    7) Participants have to share the presentation about their
+                    startup on paramarsh22.startupedia@gmail.com{" "}
+                  </li>
+                  <li>
+                    8) Participants will be short listed on the basis of:-
+                  </li>
+                  <li className="pl-4"> a) Level of traction </li>
+                  <li className="pl-4"> b) Market value and growth</li>
+                  <li className="pl-4">c) Product and business plan</li>
+                  <li className="pl-4">d) Futuristic vision</li>
+                  <li>
+                    9) Shortlisted participants will get an opportunity to pitch
+                    their ideas in front of investors and jury.
+                  </li>
+                </ol>
+              </div>
+
+              <div
+                className="text-left mt-5 bg-black/30 backdrop-blur-sm shadow-md ring-fuchsia-800 ring-1 rounded-lg m-1 p-5"
+                data-aos="zoom-out"
+              >
+                <p className="">For Queries,</p>
+                <p>Contact :-</p>
+                <p>Om Singh: +91 7096898216</p>
+              </div>
+              <div
+                className="flex items-center flex-wrap justify-center py-5"
+                data-aos="zoom-out"
+              >
+                <button className="text-center p-2 btn">REGISTER HERE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col items-center">
-          <p className=" px-[10vw] md:px-[5vw] pt-[5vh] text-justify ">
-            Why not give that talent a platform, a stairway to success. An idea
-            is the beginning of an achievement. Paramarsh’22 ignited the idea of
-            Startupedia - a development dialogue, with the sole aim of giving
-            path to young mind. We take pleasure in providing young innovators
-            and entrepreneurs a platform to take their talent and ideas to the
-            level they deserve. Coming up with an idea isn’t enough, it is
-            crafting of the idea into a real working thing, that’s a truly
-            delightful experience. It is about making the idea come alive.
-            Startupedia is amalgamation of workshops, consolidation, mentoring
-            and presentation.
-          </p>
-        </div>
       </div>
-      <div className="px-[15vw] md:px-[10vw] py-[5vh]">
-        <p className="text-xl">Rules:-</p>
-        <ol className="list-decimal">
-          <li>
-            Participants have to register via Google form/ Townscript. There is
-            no fee for entry.
-          </li>
-          <li>Participation can be done as an individual or a team.</li>
-          <li>Each individual or team may enter only one idea or concept.</li>
-          <li>Pitch competitors cannot be part of multiple teams.</li>
-          <li>Entries must be the original work of entrants.</li>
-          <li>
-            Ensure your availability on the day of the event before
-            participating.
-          </li>
-          <li>
-            {" "}
-            Participants will be short listed on the basis of : -
-            <ul className="text-lg list-disc px-[5vw]">
-              <li>Level of traction</li>
-              <li>Market value and growth</li>
-              <li>Product and business plan</li>
-              <li>Futuristic vision</li>
-            </ul>
-          </li>
-          <li>
-            Shortlisted participants will get an opportunity to pitch their
-            ideas in front of investors and jury.
-          </li>
-        </ol>
-      </div>
-      <div className="px-[10vw] md:px-[5vw] py-[5vh]">
-        <p className="text-xl">FOR QUERIES, </p>
-        <p className="">CONTACT :-</p>
-        <p className="">Visakh Nair : +91 9510350778</p>
-      </div>
-      <div className="flex items-center flex-col py-[5vh]">
-        <button className="text-center text-white border border-x-white border-y-slate-400 p-2 hover:text-black hover:bg-white">
-          REGISTER HERE
-        </button>
-      </div>
-    </div>
+    </>
   );
 };
 
